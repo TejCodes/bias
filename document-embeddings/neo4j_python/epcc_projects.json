@@ -1,0 +1,2945 @@
+{
+    "b52c6d0f-810c-4ae8-806c-2e3b4fe8b9a2": {
+        "title": "Turing Fellow Award - EPCC",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2019-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "7c505c5b-3e87-4e1a-b3a1-003790098cb7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/weronika-filinger(7c505c5b-3e87-4e1a-b3a1-003790098cb7).html",
+                "name": "Weronika Filinger"
+            }
+        ]
+    },
+    "f6b8cab9-d0bd-4d05-a52f-e1f81d85b2ea": {
+        "title": "SIRIUS - Simulations for Inertial Particle Microfluidics",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-01-01 12:00:00+00:00",
+        "endDate": "2023-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "f171552c-1aec-414e-a571-901bba2f6cb2",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rupert-nash(f171552c-1aec-414e-a571-901bba2f6cb2).html",
+                "name": "Rupert Nash"
+            }
+        ]
+    },
+    "9073c6bb-81f5-4f6d-825d-73e87fb92119": {
+        "title": "Advanced Hybrid Method for Pore-Scale Simulation of Shale Gas Flows",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-03-01 12:00:00+00:00",
+        "endDate": "2021-02-28 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "f171552c-1aec-414e-a571-901bba2f6cb2",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rupert-nash(f171552c-1aec-414e-a571-901bba2f6cb2).html",
+                "name": "Rupert Nash"
+            }
+        ]
+    },
+    "dcf729c2-6c30-4c94-ad44-59a6ff45a374": {
+        "title": "\"HiLeMMS\": High-Level Mesoscale Modelling System",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-08-01 11:00:00+00:00",
+        "endDate": "2020-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "f171552c-1aec-414e-a571-901bba2f6cb2",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rupert-nash(f171552c-1aec-414e-a571-901bba2f6cb2).html",
+                "name": "Rupert Nash"
+            }
+        ]
+    },
+    "9ec5cd22-f406-4599-a2d7-28f28daa5534": {
+        "title": "Optimisation of Large Eddy Simulation (LES) turbulence modelling within Fluidity (\u00a3101,252)",
+        "description": "\u00a3101,252 competitively awarded under UK-wide ARCHER eCSE scheme.",
+        "keywords": "",
+        "startDate": "2015-08-16 23:00:00+00:00",
+        "endDate": "2016-08-15 23:00:00+00:00",
+        "people": [
+            {
+                "uuid": "93234ad3-2825-4091-978f-b486d5465d21",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adrian-jackson(93234ad3-2825-4091-978f-b486d5465d21).html",
+                "name": "William Jackson"
+            }
+        ]
+    },
+    "a4ca145f-1332-4d95-9173-17a58b0773d8": {
+        "title": "Reducing the runtime and improving the ease-of-use and portability of the COSA 3D harmonic balance Navier-Stokes solver for open rotor unsteady aerodynamics",
+        "description": "",
+        "keywords": "",
+        "startDate": "2014-11-01 21:23:28.662000+00:00",
+        "endDate": "2016-03-30 20:23:37.117000+00:00",
+        "people": [
+            {
+                "uuid": "93234ad3-2825-4091-978f-b486d5465d21",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adrian-jackson(93234ad3-2825-4091-978f-b486d5465d21).html",
+                "name": "William Jackson"
+            }
+        ]
+    },
+    "e5214419-7682-4940-a3f9-767100a8d95d": {
+        "title": "Intel Parallel Computing Centre",
+        "description": "Collaboration with Intel on parallel computing",
+        "keywords": "",
+        "startDate": "2014-04-01 11:56:09.734000+00:00",
+        "endDate": "2018-03-31 23:00:00+00:00",
+        "people": [
+            {
+                "uuid": "93234ad3-2825-4091-978f-b486d5465d21",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adrian-jackson(93234ad3-2825-4091-978f-b486d5465d21).html",
+                "name": "William Jackson"
+            }
+        ]
+    },
+    "afb966bc-7400-4fc7-bbff-2bd8b5250ddc": {
+        "title": "Plasma Physics HEC Consortia",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-05-29 11:00:00+00:00",
+        "endDate": "2018-05-28 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "93234ad3-2825-4091-978f-b486d5465d21",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adrian-jackson(93234ad3-2825-4091-978f-b486d5465d21).html",
+                "name": "William Jackson"
+            }
+        ]
+    },
+    "2166f013-0a95-4c03-8a31-38f55c848d5c": {
+        "title": "Big-Data Compressive Sensing: Fast, Parallelised and Distributed Algorithms",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-06-01 11:00:00+00:00",
+        "endDate": "2019-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "93234ad3-2825-4091-978f-b486d5465d21",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adrian-jackson(93234ad3-2825-4091-978f-b486d5465d21).html",
+                "name": "William Jackson"
+            }
+        ]
+    },
+    "eb6c6f97-6c98-4ffe-b51c-a4d029848278": {
+        "title": "COSA (HECToR Distributed CSE Project)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-03-01 14:24:55.495000+00:00",
+        "endDate": "2013-02-28 14:25:03.886000+00:00",
+        "people": [
+            {
+                "uuid": "93234ad3-2825-4091-978f-b486d5465d21",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adrian-jackson(93234ad3-2825-4091-978f-b486d5465d21).html",
+                "name": "William Jackson"
+            },
+            {
+                "uuid": "7f157976-5a16-428d-a95e-42f5f7c33e17",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/andrew-turner(7f157976-5a16-428d-a95e-42f5f7c33e17).html",
+                "name": "Andrew Turner"
+            }
+        ]
+    },
+    "b309529c-63b3-49ae-a191-8d7470bbc01d": {
+        "title": "BioExcel-2 Centre of Excellence for Computational Biomolecular Research",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-01-01 12:00:00+00:00",
+        "endDate": "2021-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "81a2c418-fc7e-45ff-9e65-dbec6893a46c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adam-carter(81a2c418-fc7e-45ff-9e65-dbec6893a46c).html",
+                "name": "Adam Carter"
+            },
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "3d13abd5-8ce5-448f-b9a3-433049c4de84": {
+        "title": "Surface and Interfacial MCC Toolkit",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-04-01 11:00:00+00:00",
+        "endDate": "2020-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "81a2c418-fc7e-45ff-9e65-dbec6893a46c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adam-carter(81a2c418-fc7e-45ff-9e65-dbec6893a46c).html",
+                "name": "Adam Carter"
+            }
+        ]
+    },
+    "2a80b123-cf72-4e67-b78c-75be70591208": {
+        "title": "Knowledge Led Structure Prediction for Nanostructures",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-10-11 11:00:00+00:00",
+        "endDate": "2015-10-30 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "81a2c418-fc7e-45ff-9e65-dbec6893a46c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/adam-carter(81a2c418-fc7e-45ff-9e65-dbec6893a46c).html",
+                "name": "Adam Carter"
+            }
+        ]
+    },
+    "1d5d625d-e9a3-4356-9860-76742e5f7032": {
+        "title": "The SPRINT approach to network biology",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2014-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "b76bc187-bfcc-43bf-8af0-d9302dfc1ee3",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/eilidh-troup(b76bc187-bfcc-43bf-8af0-d9302dfc1ee3).html",
+                "name": "Eilidh Troup"
+            },
+            {
+                "uuid": "17de2d57-7fe8-420a-927b-1ab15928882c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/luis-cebamanos(17de2d57-7fe8-420a-927b-1ab15928882c).html",
+                "name": "Luis Cebamanos"
+            },
+            {
+                "uuid": "0b33a594-ffb5-4a6d-95d2-05b84ee24fa8",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lawrence-mitchell(0b33a594-ffb5-4a6d-95d2-05b84ee24fa8).html",
+                "name": "Lawrence Mitchell"
+            },
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "71432328-ba3c-4a2b-af28-7301c3fe252a": {
+        "title": "Streamlining petrophysics workflows with machine learning",
+        "description": "The oil and gas industry is not short of data, in the form of wells, seismic and other geophysical information. \u00a0 However, the industry is notoriously poor at utilizing this information.\u00a0 The complexity of workflows required to take raw information that is available in public or proprietary data stores and turn this into decision ready information on sub-surface geology and properties means that such workflows are time consuming, so that often only a fraction of available information is used.\u00a0 Making better use of information, using modern data analytics techniques, and presenting this information in a way that is immediately useful to geologists and decision makers has the potential to dramatically reduce time to decision and the quality of the decision that is made.  Abacus and EPCC are proposing to work on one aspect of this problem:\u00a0 streamlining petrophysics and rock physics workflows.\u00a0\u00a0\u00a0 A typical rock physics atlas developed by Abacus may contain 100-200 wells, and each well takes on average 7 days for an experienced petrophysicist to prepare.\u00a0\u00a0However including more wells in the atlas will make them ever more valuable:\u00a0 rather than searching 100 wells on a margin, if we can search 1000 or 10,000 the richness and diversity of information that is available is dramatically improved.\u00a0 To do this we need to decrease the time taken to process a raw well, ideally by an order of magnitude.",
+        "keywords": "",
+        "startDate": "2018-05-01 11:00:00+00:00",
+        "endDate": "2019-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d0fe7a8b-6e4f-409f-a5b2-cb1cfe31ce36",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/nicholas-brown(d0fe7a8b-6e4f-409f-a5b2-cb1cfe31ce36).html",
+                "name": "Nicholas Brown"
+            }
+        ]
+    },
+    "ad27920f-7b83-48c2-b8d2-175f73977514": {
+        "title": "Visual Exploration and Sampling Toolkit for Extreme Computing",
+        "description": "High performance computing. Urgent Decision Making, Interactive Supercomputing, Large-scale Simulation Models, Topology Feature Extraction, 3D Visualization, High Velocity Real-time Data.",
+        "keywords": "",
+        "startDate": "2018-09-01 11:00:00+00:00",
+        "endDate": "2021-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d0fe7a8b-6e4f-409f-a5b2-cb1cfe31ce36",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/nicholas-brown(d0fe7a8b-6e4f-409f-a5b2-cb1cfe31ce36).html",
+                "name": "Nicholas Brown"
+            },
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "f9b74f60-49e5-4683-9ffa-a2768d223ac5": {
+        "title": "Quantum Single Pixel Camera",
+        "description": "The research project aims to image large and complex quantum states using techniques from compressed sensing. The project recently received \u00a36000 of funding from the EPSRC sponsored Interdisciplinary Project Fund.",
+        "keywords": "",
+        "startDate": "2013-03-01 14:43:38.820000+00:00",
+        "endDate": "2013-10-01 13:43:57.871000+00:00",
+        "people": [
+            {
+                "uuid": "7f157976-5a16-428d-a95e-42f5f7c33e17",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/andrew-turner(7f157976-5a16-428d-a95e-42f5f7c33e17).html",
+                "name": "Andrew Turner"
+            }
+        ]
+    },
+    "cfe31b6e-9129-4a48-86cb-c71687107542": {
+        "title": "GROMACS SHMEM (HECToR Distributed CSE Project)",
+        "description": "",
+        "keywords": "Keywords",
+        "startDate": "2013-02-01 14:26:52.968000+00:00",
+        "endDate": "2013-08-31 13:26:59.180000+00:00",
+        "people": [
+            {
+                "uuid": "7f157976-5a16-428d-a95e-42f5f7c33e17",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/andrew-turner(7f157976-5a16-428d-a95e-42f5f7c33e17).html",
+                "name": "Andrew Turner"
+            },
+            {
+                "uuid": "eaf9f1b5-3190-49ef-a8d0-663996c70871",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/ruyman-reyes-castro(eaf9f1b5-3190-49ef-a8d0-663996c70871).html",
+                "name": "Ruyman Reyes Castro"
+            }
+        ]
+    },
+    "66d56d20-4541-4c44-8317-d9a99fc41b8b": {
+        "title": "TPLS (HECToR Distributed CSE Project)",
+        "description": "",
+        "keywords": "Keywords",
+        "startDate": "2012-07-01 13:18:44.308000+00:00",
+        "endDate": "2013-04-30 13:18:54.360000+00:00",
+        "people": [
+            {
+                "uuid": "7f157976-5a16-428d-a95e-42f5f7c33e17",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/andrew-turner(7f157976-5a16-428d-a95e-42f5f7c33e17).html",
+                "name": "Andrew Turner"
+            },
+            {
+                "uuid": "4344842c-1a8c-4370-9952-6edc964c2590",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/david-scott(4344842c-1a8c-4370-9952-6edc964c2590).html",
+                "name": "David Scott"
+            }
+        ]
+    },
+    "4429538b-f5f0-4d04-85dc-2ad186ea338b": {
+        "title": "Proposal to Extend the Research Data Facility at the University of Edinburgh",
+        "description": "",
+        "keywords": "",
+        "startDate": "2014-01-01 12:00:00+00:00",
+        "endDate": "2015-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "7f157976-5a16-428d-a95e-42f5f7c33e17",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/andrew-turner(7f157976-5a16-428d-a95e-42f5f7c33e17).html",
+                "name": "Andrew Turner"
+            }
+        ]
+    },
+    "d587f86a-801f-4d91-ba07-bf7dec1c63f1": {
+        "title": "libhpc Stage II: A Long-term Solution for the Usability, Maintainability and Sustainability of HPC Software",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-07-01 11:00:00+00:00",
+        "endDate": "2015-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "7f157976-5a16-428d-a95e-42f5f7c33e17",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/andrew-turner(7f157976-5a16-428d-a95e-42f5f7c33e17).html",
+                "name": "Andrew Turner"
+            }
+        ]
+    },
+    "6441b391-6cf7-450f-b90a-7312d3c2e7c6": {
+        "title": "Learner Experiences across the Disciplines (LEad)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2007-03-01 12:00:00+00:00",
+        "endDate": "2008-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5a78137c-d187-4661-b76a-42df9084cd16",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/judy-hardy(5a78137c-d187-4661-b76a-42df9084cd16).html",
+                "name": "Judy Hardy"
+            }
+        ]
+    },
+    "e8e26b38-369c-42b1-8648-84c7100c4f53": {
+        "title": "Ask, answer, assess: Peer learning from student-generated content",
+        "description": "",
+        "keywords": "",
+        "startDate": "2014-09-15 11:00:00+00:00",
+        "endDate": "2015-11-30 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5a78137c-d187-4661-b76a-42df9084cd16",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/judy-hardy(5a78137c-d187-4661-b76a-42df9084cd16).html",
+                "name": "Judy Hardy"
+            }
+        ]
+    },
+    "084909cc-fa86-4351-80b9-cf65c315f576": {
+        "title": "HEA Teaching Development grant",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-12-31 12:00:00+00:00",
+        "endDate": "2012-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5a78137c-d187-4661-b76a-42df9084cd16",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/judy-hardy(5a78137c-d187-4661-b76a-42df9084cd16).html",
+                "name": "Judy Hardy"
+            }
+        ]
+    },
+    "8f0c7dae-bc88-455d-b88c-94bf3e57e8b1": {
+        "title": "Identifying the relationships between funding, advances in knowledge, and adoption in the learning and teaching of physics in UK Higher Education",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-12-01 12:00:00+00:00",
+        "endDate": "2014-02-28 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5a78137c-d187-4661-b76a-42df9084cd16",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/judy-hardy(5a78137c-d187-4661-b76a-42df9084cd16).html",
+                "name": "Judy Hardy"
+            }
+        ]
+    },
+    "a28194fb-e803-471a-821f-bd50ce11c4b9": {
+        "title": "Students as  co-creators: optimal Startegies for high quality engagement and learning",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2015-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5a78137c-d187-4661-b76a-42df9084cd16",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/judy-hardy(5a78137c-d187-4661-b76a-42df9084cd16).html",
+                "name": "Judy Hardy"
+            }
+        ]
+    },
+    "07ab1be6-ea6d-4f2b-ad4d-905d2c51cdee": {
+        "title": "Bootstrapping and support vector machines with R and SPRINT",
+        "description": "This EPSRC dCSE project optimised for HECToR, the UK's national supercomputing service, two further parallelised statistical functions in the SPRINT package, bootstrapping and support vector machines (SVM) .  SPRINT aims to provide parallelised bio-statistical analysis functions to the R community, allowing user-friendly usage of HPC systems.",
+        "keywords": "",
+        "startDate": "2012-01-01 00:00:00+00:00",
+        "endDate": "2012-06-29 23:00:00+00:00",
+        "people": [
+            {
+                "uuid": "17de2d57-7fe8-420a-927b-1ab15928882c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/luis-cebamanos(17de2d57-7fe8-420a-927b-1ab15928882c).html",
+                "name": "Luis Cebamanos"
+            },
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "05132eb2-82d8-424b-b427-d8f48b9fe0e3": {
+        "title": "Transnational Access Programme for a Pan-European Network of HPC Research Infrastructures",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-05-01 11:00:00+00:00",
+        "endDate": "2021-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "9b790ca2-3b40-43be-a69b-2ab1ef92bc86",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/catherine-inglis(9b790ca2-3b40-43be-a69b-2ab1ef92bc86).html",
+                "name": "Catherine Inglis"
+            }
+        ]
+    },
+    "1e1a689f-0a75-4433-af84-8693b7a2fb53": {
+        "title": "EXDCI: European eXtreme Data and Computing Initiative",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-09-01 11:00:00+00:00",
+        "endDate": "2018-02-28 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "9b790ca2-3b40-43be-a69b-2ab1ef92bc86",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/catherine-inglis(9b790ca2-3b40-43be-a69b-2ab1ef92bc86).html",
+                "name": "Catherine Inglis"
+            }
+        ]
+    },
+    "e02c672e-509c-4ab3-b5e5-365c55eea371": {
+        "title": "European eXtreme Data and Computing Initiative - 2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-03-01 12:00:00+00:00",
+        "endDate": "2020-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "9b898231-a59e-46f9-ad57-50520c64714c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/david-henty(9b898231-a59e-46f9-ad57-50520c64714c).html",
+                "name": "David Henty"
+            },
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "daeff85a-0796-42da-8239-0fab8ac6ea3d": {
+        "title": "Statistical and computational method for population stratification and prediction of cancer risk",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2015-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "9b898231-a59e-46f9-ad57-50520c64714c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/david-henty(9b898231-a59e-46f9-ad57-50520c64714c).html",
+                "name": "David Henty"
+            }
+        ]
+    },
+    "6f4e229e-68c2-4225-bfc6-c97d66253f17": {
+        "title": "EPSRC Research Software Engineer Fellowship Oliver Henrich",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-07-31 11:00:00+00:00",
+        "endDate": "2017-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "bf5afdda-4487-4f05-bf19-c2fbbfe820e4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/oliver-henrich(bf5afdda-4487-4f05-bf19-c2fbbfe820e4).html",
+                "name": "Oliver Henrich"
+            }
+        ]
+    },
+    "8bdd3f07-5a91-4f62-9834-0fdb9c750503": {
+        "title": "SPRINTing further with HECToR",
+        "description": "The Simple Parallel R INTerface (SPRINT) offers both a parallel functions library and an interface for adding parallel functions to the R language and environment for statistical computing and graphics. The aims of this project were:<br/>- Optimise the randomForest decision tree classifier for parallel implementation on HECToR, the UK's national supercomputing service, and then make it available for general R usage on HECToR through SPRINT.<br/>- Analyse the performance of SPRINT's rank product and optimise.<br/>- Benchmark both randomForest and rank product for up to 512 processes",
+        "keywords": "",
+        "startDate": "2010-09-30 23:00:00+00:00",
+        "endDate": "2011-04-29 23:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0b33a594-ffb5-4a6d-95d2-05b84ee24fa8",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lawrence-mitchell(0b33a594-ffb5-4a6d-95d2-05b84ee24fa8).html",
+                "name": "Lawrence Mitchell"
+            },
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "026de157-47e7-443e-8b4f-229fd1ac07f8": {
+        "title": "Enabling Catalytic Cross Couplings with only Zinc Electrophiles, Nucleophiles and Boranes",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-04-01 11:00:00+00:00",
+        "endDate": "2023-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            },
+            {
+                "uuid": "fa7ecedb-db73-44ce-9703-b55c93331e57",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/charaka-palansuriya(fa7ecedb-db73-44ce-9703-b55c93331e57).html",
+                "name": "Charaka Palansuriya"
+            },
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            },
+            {
+                "uuid": "66f4ae16-ad0a-4ab4-ae37-5f844ed07fae",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/gavin-pringle(66f4ae16-ad0a-4ab4-ae37-5f844ed07fae).html",
+                "name": "Gavin Pringle"
+            }
+        ]
+    },
+    "079338c2-3de8-4f5e-96f0-59f8bebe59e3": {
+        "title": "INFORMING BUSINESS & REGIONAL POLICY",
+        "description": "",
+        "keywords": "",
+        "startDate": "2003-11-01 00:00:00+00:00",
+        "endDate": "2005-03-30 23:00:00+00:00",
+        "people": [
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "cee50f74-28d6-4e2e-971c-9bdd9dbdea1e": {
+        "title": "SPRINTing with HECToR",
+        "description": "This Distributed Computational Science and Engineering (dCSE) project optimised SPRINT for use on the HECToR, the UK's national supercomputing service. SPRINT is an add-on package for the R language and environment for statistical computing and graphics. SPRINT (Simple Parallel R INTerface) offers both a parallel functions library and an interface for adding parallel functions to R.",
+        "keywords": "",
+        "startDate": "2009-09-30 23:00:00+00:00",
+        "endDate": "2010-03-30 23:00:00+00:00",
+        "people": [
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "e44b638c-3218-4e8e-84b5-5927685dd277": {
+        "title": "Globalisation and the grid",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-04-01 11:00:00+00:00",
+        "endDate": "2012-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "bd157eda-0ca0-4cba-a2cb-baf091de3c8e": {
+        "title": "HPC Enabling of R Application Software",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-04-01 11:00:00+00:00",
+        "endDate": "2011-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "cb3314e0-f1db-4221-a19b-abf14001edd1",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/terence-sloan(cb3314e0-f1db-4221-a19b-abf14001edd1).html",
+                "name": "Terence Sloan"
+            }
+        ]
+    },
+    "7ff34b7d-e4f8-4101-a4fb-20f1afa8162e": {
+        "title": "HPC-EUROPA",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-01-01 12:00:00+00:00",
+        "endDate": "2012-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "1ec33d29-7d90-4395-ba2f-f9e94a5a82fc": {
+        "title": "EUDAT: European DATa",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2015-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "939f1b9d-d422-47ea-b37a-193f6f54ad6e": {
+        "title": "HPC-EUROPA2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-01-01 12:00:00+00:00",
+        "endDate": "2012-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "db9b50eb-7f16-4ad3-81ab-c115ff1badb4": {
+        "title": "EUDAT: European DATa",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2015-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "e27e0147-e877-4731-93be-9475dfefda2b": {
+        "title": "HPC Europa 2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-01-01 12:00:00+00:00",
+        "endDate": "2012-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "4f536a58-2433-4107-9da0-e8be15faa0dd": {
+        "title": "HPC-EUROPA2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-01-01 12:00:00+00:00",
+        "endDate": "2012-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "885aaba0-dabc-43ab-8cc4-df5424298372": {
+        "title": "DEISA2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-05-01 11:00:00+00:00",
+        "endDate": "2011-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "b7b72142-c17b-4ef4-a0ea-0a6c6c4b10b7": {
+        "title": "iCORDI",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-09-01 11:00:00+00:00",
+        "endDate": "2014-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "7e331b60-9c76-4be0-8aa6-102f86d60300": {
+        "title": "HPC-EUROPA - Co-ordination",
+        "description": "",
+        "keywords": "",
+        "startDate": "2004-01-01 12:00:00+00:00",
+        "endDate": "2007-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "65b70251-cc7f-428e-9464-57e8b02a4ee7": {
+        "title": "DEISA2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-05-01 11:00:00+00:00",
+        "endDate": "2011-04-03 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "5ca10872-92be-441b-9cb9-6d7125d54549": {
+        "title": "Grant for conference in Japan",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-02-01 12:00:00+00:00",
+        "endDate": "2006-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "86998993-d192-4bec-af66-296092a51b7c": {
+        "title": "Workshop on computational Hadron Physics",
+        "description": "",
+        "keywords": "",
+        "startDate": "2005-09-01 11:00:00+00:00",
+        "endDate": "2005-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "18133dec-8e0e-469d-b480-3fc362f28980": {
+        "title": "HPC - EUROPA",
+        "description": "",
+        "keywords": "",
+        "startDate": "2004-01-31 12:00:00+00:00",
+        "endDate": "2007-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "0b8b0633-1d04-4474-b837-c35ddd283d68": {
+        "title": "HPC-EUROPA",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-01-01 12:00:00+00:00",
+        "endDate": "2008-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "0c023c69-172f-4008-979f-cf5b1f049e56": {
+        "title": "DEISA2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-05-01 11:00:00+00:00",
+        "endDate": "2011-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "af182076-bf31-4f02-8891-f237b6e13455": {
+        "title": "DEISA2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-05-01 11:00:00+00:00",
+        "endDate": "2011-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "0970b437-74aa-474c-a951-36f4f55dfa71",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alison-kennedy(0970b437-74aa-474c-a951-36f4f55dfa71).html",
+                "name": "Alison Kennedy"
+            }
+        ]
+    },
+    "3a9b706f-8b8b-41bf-b4c9-41c206f46a14": {
+        "title": "MICA: InterdisciPlInary Collaboration for efficienT and effective Use of clinical images in big data health care RESearch: PICTURES",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-07-01 11:00:00+00:00",
+        "endDate": "2024-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "6f88097f-7421-469b-993c-29dc7c4da326": {
+        "title": "A Pathfinder Project for National AAAI",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-09-01 11:00:00+00:00",
+        "endDate": "2017-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            },
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "ac84540e-49df-4d98-939d-0214cb0b3b80": {
+        "title": "Virtual Earthquake and seismology Research Community in Europe e-science environment (VERCE)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2015-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "d3016eca-5a2d-48c8-a7be-1ef53db355ec": {
+        "title": "Support for the preparatory phase of PACE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-01-01 12:00:00+00:00",
+        "endDate": "2010-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            },
+            {
+                "uuid": "edbe5450-e7d0-43d8-8700-4982f415b3e7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-d-simpson(edbe5450-e7d0-43d8-8700-4982f415b3e7).html",
+                "name": "Alan Simpson"
+            }
+        ]
+    },
+    "9916acaa-7920-4bb4-a725-4450c89c82c9": {
+        "title": "EGEE-11 Matching Funding",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-10-01 11:00:00+00:00",
+        "endDate": "2009-03-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "a795c28e-3d06-4915-957c-e777dce62e6c": {
+        "title": "UK Software Sustainability Institute",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2016-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            },
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "0aa6bc88-2184-42fb-ae6e-8c1797a9e215": {
+        "title": "EGEE11 Enabling Grids for E-Science E-11",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-04-01 11:00:00+00:00",
+        "endDate": "2009-07-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "18142078-accc-488e-80e6-03b4187e1aea": {
+        "title": "MICA: InterdisciPlInary Collaboration for efficienT and effective Use of clinical images in big data health care RESearch: PICTURES",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-07-01 11:00:00+00:00",
+        "endDate": "2024-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "b328c65b-c884-4840-a6cd-2d101523f557": {
+        "title": "Cirrus Phase II: Preparing for Heterogeneity at the Exascale",
+        "description": "",
+        "keywords": "",
+        "startDate": "2020-01-01 12:00:00+00:00",
+        "endDate": "2024-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "bc204b26-2bf8-4741-92b6-7c3d33437f01": {
+        "title": "CompBioMed2: A Centre of Excellence in Computational Biomedicine",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-10-01 11:00:00+00:00",
+        "endDate": "2023-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "b3031eb8-3e07-4419-ab85-19b2cb517161": {
+        "title": "iCAIRD: Industrial Centre for AI Research in Digital Diagnostics",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-02-01 12:00:00+00:00",
+        "endDate": "2022-01-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "e568c47e-8155-4748-a4c4-7ddaad860f58": {
+        "title": "HDR UK",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-04-01 11:00:00+00:00",
+        "endDate": "2023-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "f74aa743-cc60-4619-8566-08f534dbc15c": {
+        "title": "Strategic Partnership in Computational Science for Advanced Simulation and Modelling of Engineering Systems - ASiMoV",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-10-01 11:00:00+00:00",
+        "endDate": "2023-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "44be44b1-7037-4144-886f-f54c2f81dee1": {
+        "title": "The European Centre of Excellence for Engineering Applications",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-12-01 12:00:00+00:00",
+        "endDate": "2021-11-30 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            },
+            {
+                "uuid": "668d7161-8efc-4405-b548-a89b0c9ef94e",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/paul-graham(668d7161-8efc-4405-b548-a89b0c9ef94e).html",
+                "name": "Paul Graham"
+            },
+            {
+                "uuid": "7fb933f2-e8ff-4659-853f-af1e744c64b3",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-filipiak(7fb933f2-e8ff-4659-853f-af1e744c64b3).html",
+                "name": "Mark Filipiak"
+            }
+        ]
+    },
+    "20379ef3-6513-4789-9851-199537964265": {
+        "title": "Iterative approach to Mean-Field Games for Cyber Security",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-11-15 12:00:00+00:00",
+        "endDate": "2018-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "79f4eeda-a8d0-4d30-b42c-e7451b596950": {
+        "title": "Turing Fellow Award - EPCC",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2019-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "0ed5b146-9b14-4d2a-aeb7-71dfd25c9e1b": {
+        "title": "Turing Fellow Award - EPCC",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2019-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "2e936c2a-62b8-4f60-b648-e51c1bf478b3": {
+        "title": "Turing Fellow Award - EPCC",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2019-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "5e59ea26-329d-4bc2-8a54-3e055de04de5": {
+        "title": "DEEP - Extreme Scale Technologies",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-07-01 11:00:00+00:00",
+        "endDate": "2020-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "317e8858-b68d-475c-9414-f79dc87a81f6": {
+        "title": "CRESTA",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2014-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            },
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "d5789954-4b05-4191-a86a-8de1f2d65b65": {
+        "title": "PRACE 5th Implementation Phase Project",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-01-01 12:00:00+00:00",
+        "endDate": "2019-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "1ac2ad57-1046-48b4-9f86-c9954c1e2a4c": {
+        "title": "EPCC Tier 2 HPC Service",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-11-01 12:00:00+00:00",
+        "endDate": "2021-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "0b61584e-4d68-4d1d-9bff-abb45c077791": {
+        "title": "PRACE - 4IP 4th Implementation Phase Project",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-02-01 12:00:00+00:00",
+        "endDate": "2017-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "3499b43f-89f3-4828-8b3d-6499ddd4676b": {
+        "title": "CompBioMed: A Centre of Excellence in Computational Biomedicine",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-10-01 11:00:00+00:00",
+        "endDate": "2019-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "78633ae4-360a-4686-8426-65fc6103def6": {
+        "title": "PRACE-2IP (Coord)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-09-01 11:00:00+00:00",
+        "endDate": "2014-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "2e0161b8-6030-4ddb-94ff-c5f115f07cbc": {
+        "title": "IGE: Initiative for Globus in Europe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-10-01 11:00:00+00:00",
+        "endDate": "2013-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "2e8c75f2-ac5c-42d5-a761-18346c236a21": {
+        "title": "BONFIRE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "fd2f3138-7574-4ebe-8e06-b01dea640911": {
+        "title": "BONFIRE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "e18cdcd5-1704-4db2-b185-ebb1fdddc6b3": {
+        "title": "PLANETHPC",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-11-01 12:00:00+00:00",
+        "endDate": "2012-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "e516b4a1-6cdd-4ac9-8e7a-f95722e7709d": {
+        "title": "VERCE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2015-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "c09e1ddd-9297-4c94-9fc1-9cd1fc7cb3af": {
+        "title": "APOS-EU",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-02-01 12:00:00+00:00",
+        "endDate": "2013-01-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "061929e9-f08f-42ee-b08c-ea7b2f531a5b": {
+        "title": "PRACE-1IP",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-07-01 11:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "7edd4ff1-fb3c-4d92-9957-036df6d9e708": {
+        "title": "IGE: Initiative for Globus in Europe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-10-01 11:00:00+00:00",
+        "endDate": "2013-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "d0189367-0a34-4aae-a83c-b765f1a9b929": {
+        "title": "BONFIRE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "a8777e6a-2f9d-410a-b2fb-32c985c62fc0": {
+        "title": "APOS-EU",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-02-01 12:00:00+00:00",
+        "endDate": "2013-01-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "2d2dfc90-8d60-4a3e-bd20-2d7c4ea740fc": {
+        "title": "EESI-2: European Exascale Software Initiative 2 Towards exascale roadmap implementation",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-09-01 11:00:00+00:00",
+        "endDate": "2015-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "575b977b-c5cf-42bf-acd2-6741052487c7": {
+        "title": "VERCE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2015-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "77f96357-d577-498a-8713-92c24fbe99b6": {
+        "title": "PRACE-1IP",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-07-01 11:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "4fe5c9d0-7cfc-466b-95a8-69a582869da2": {
+        "title": "IGE: Initiative For Globus Europe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-10-01 11:00:00+00:00",
+        "endDate": "2013-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "fb17feb1-0337-43e8-8521-7215b266fa4e": {
+        "title": "PRACE-1IP",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-07-01 11:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "4e1b0ef5-9f9d-4985-a5aa-19c35166f3c8": {
+        "title": "NextGRID",
+        "description": "",
+        "keywords": "",
+        "startDate": "2004-09-01 11:00:00+00:00",
+        "endDate": "2008-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "0efd4eb3-5ea2-4657-beed-3ffeb50a1942": {
+        "title": "PRACE-3IP: PRACE - Third Implementation Phase Project (COORD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-07-01 11:00:00+00:00",
+        "endDate": "2017-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "f182509c-51a0-4a77-80c7-278bc70a211c": {
+        "title": "PRACE-3IP: PRACE - Third Implementation Phase Project (RTD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-07-01 11:00:00+00:00",
+        "endDate": "2017-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "61b9c884-88d3-43a3-98fc-f55d501a8851": {
+        "title": "PRACE-3IP: PRACE - Third Implementation Phase Project (MGT)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-07-01 11:00:00+00:00",
+        "endDate": "2017-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "c2f124be-b93d-4d4f-9959-1840b041d0a9": {
+        "title": "PRACE-3IP: PRACE - Third Implementation Phase Project (OTH)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-07-01 11:00:00+00:00",
+        "endDate": "2017-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "faca202f-bff2-4bf4-80c8-537427b79208": {
+        "title": "FORTISSIMO: Factories of the Future Resources, Technology, Infrastructure and Services for Simulation and Modelling (OTH)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-07-01 11:00:00+00:00",
+        "endDate": "2016-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "a0aa5356-2b9f-4701-b52c-20de4c9aa060": {
+        "title": "FORTISSIMO: Factories of the Future Resources, Technology, Infrastructure and Services for Simulation and Modelling (MGT)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-07-01 11:00:00+00:00",
+        "endDate": "2016-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "cc29f607-d211-4c78-90cf-77db8a6783f6": {
+        "title": "FORTISSIMO: Factories of the Future Resources, Technology, Infrastructure and Services for Simulation and Modelling (RTD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-07-01 11:00:00+00:00",
+        "endDate": "2016-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "6c26fb4d-ab14-46bb-a324-e16bc793aebc": {
+        "title": "OM11-Europe Open middleware Infrastructure Initiative for Europe.",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-05-01 11:00:00+00:00",
+        "endDate": "2010-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "489ceb3b-fe5b-47c1-ae18-76b7182823e2": {
+        "title": "Centre of Excellence for Biomolecular Research",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-11-01 12:00:00+00:00",
+        "endDate": "2018-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "7309557c-6dd9-4745-aca6-6b3bc786c7bc": {
+        "title": "NEXTGenIO: Next Generation I/O for Exascale",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-10-01 11:00:00+00:00",
+        "endDate": "2019-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "6f99993b-8af6-4f2d-8e18-58b7d42107ba": {
+        "title": "Factories of the Future Resources, Technology, Infrastructure and Services for Simulation and Modelling 2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-11-01 12:00:00+00:00",
+        "endDate": "2018-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "0664b95b-a2e2-4cd0-9ce6-0f4bc081ffb2": {
+        "title": "Development of a website for the LIFEKIC consortium bid to the knowledge and innovation communities innovation for healthy living and active ageing call",
+        "description": "",
+        "keywords": "",
+        "startDate": "2014-03-01 12:00:00+00:00",
+        "endDate": "2014-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "f6135bad-88f5-407e-8f06-03e9768a43a1": {
+        "title": "OMII-UK/NATIONAL GRID SERVICE",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-10-01 11:00:00+00:00",
+        "endDate": "2010-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "a587187f-942d-41e7-acb8-9dce193783ef": {
+        "title": "PRACE-2IP (RTD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-09-01 11:00:00+00:00",
+        "endDate": "2014-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "f4d54dec-0621-49de-b767-0bfcda0a337f": {
+        "title": "Enhancing Aeromechanical  Analysis and  Design Capabilities in wind turbine rotors",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-09-01 11:00:00+00:00",
+        "endDate": "2011-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "38ea2da2-adaf-481c-9037-3f071b557553": {
+        "title": "ADMIRE: Advanced Data Mining and Integration Research for Europe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-03-01 12:00:00+00:00",
+        "endDate": "2011-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "6c7d373e-89b0-4023-9c44-48a08d5ade56": {
+        "title": "PLANETHPC",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-11-01 12:00:00+00:00",
+        "endDate": "2012-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "d5d41c5e-63bc-47ac-b74a-11e9d93c4339": {
+        "title": "NextGrid: The next generation grid.",
+        "description": "",
+        "keywords": "",
+        "startDate": "2004-09-01 11:00:00+00:00",
+        "endDate": "2008-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "351438b7-bb22-4d06-bb26-eb8590a6b55e": {
+        "title": "BEINGRID: Business Experiments in GRID (Linked to R82485 & 6)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-06-01 11:00:00+00:00",
+        "endDate": "2009-11-30 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "27ca6f9d-287b-4412-b06b-beb18a0aad27": {
+        "title": "HPC technology transfer for the games industry.",
+        "description": "",
+        "keywords": "",
+        "startDate": "2005-08-01 11:00:00+00:00",
+        "endDate": "2006-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "cb78403f-8e16-446a-85bf-1d426c5c5e2d": {
+        "title": "OM11-Europe: Open Middleware Infrastructure Initiative for Europe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-05-01 11:00:00+00:00",
+        "endDate": "2010-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "1892a21c-6117-4e10-8725-f909f6c9c1c7": {
+        "title": "MOPED FOLLOW ON",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-07-01 11:00:00+00:00",
+        "endDate": "2010-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "59ec17d6-6f85-4919-a58e-5450c3de1f41",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-parsons(59ec17d6-6f85-4919-a58e-5450c3de1f41).html",
+                "name": "Mark Parsons"
+            }
+        ]
+    },
+    "d8cb5ec0-41b7-4f93-96ec-688431b8bb1d": {
+        "title": "TPLS: Optimised Parallel I/O and Visualisation",
+        "description": "",
+        "keywords": "",
+        "startDate": "2014-03-31 23:00:00+00:00",
+        "endDate": "2014-12-31 00:00:00+00:00",
+        "people": [
+            {
+                "uuid": "2289f0e7-8c0a-4791-b3c1-2024bd519fc4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/toni-collis(2289f0e7-8c0a-4791-b3c1-2024bd519fc4).html",
+                "name": "Antonia Collis"
+            },
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "35bc371c-3528-485a-814f-1b9565d574a6": {
+        "title": "EPCC Supporting Artificial Intelligence (Dundee lead)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2020-01-01 12:00:00+00:00",
+        "endDate": "2020-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "2fee0725-e63d-49c8-93ab-16c5b611b1c5": {
+        "title": "Visual Exploration and Sampling Toolkit for Extreme Computing",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-09-01 11:00:00+00:00",
+        "endDate": "2021-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "5f2e2c68-7759-4edb-abd6-db35c714dcc1": {
+        "title": "Big Data Value Spaces for COmpetitiveness of European COnnected Smart FacTories 4.0",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2020-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "e99c0291-2e54-4938-9e33-a87c9601bde8": {
+        "title": "Integrating and managing services for the European Open Science Cloud",
+        "description": "The EOSC-hub project creates the integration and management system of the future European Open Science Cloud that delivers a catalogue of services, software and data from the EGI Federation, EUDAT CDI, INDIGO-DataCloud and major research e-infrastructures.",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2020-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "c38a6fdc-65b5-481d-b12a-3c4f10428c29": {
+        "title": "GCRF Multi-hazard Urban Disaster Risk Transitions Hub",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-02-13 12:00:00+00:00",
+        "endDate": "2024-02-12 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "9d06940a-b036-44ae-b049-e5c772dd10b3": {
+        "title": "PERICLES - Promoting and Enhancing Reuse of Information throughout the Content Lifecycle taking account of Evolving Semantics (Other)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-02-01 12:00:00+00:00",
+        "endDate": "2017-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "c4d38739-693a-457a-8c9a-daa49bfedea1": {
+        "title": "Integrating and managing services for the European Open Science Cloud",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2020-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "e883e09d-3d8c-49f5-8820-91db98df3d81": {
+        "title": "Broader Web-Scale Provision Corpora for European Languages",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-09-01 11:00:00+00:00",
+        "endDate": "2020-09-14 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "ffb1a058-9e28-4d3d-bd2a-6e42f23d7785": {
+        "title": "Deep PDE solvers for inverse problems and large population games",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-06-01 11:00:00+00:00",
+        "endDate": "2018-12-01 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "08914f13-1c7a-4a46-8e44-01a5d921d070": {
+        "title": "Research for Emergency Aftershock Response (GCRF-REAR)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-11-01 12:00:00+00:00",
+        "endDate": "2017-11-01 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "6bece939-1bca-4edc-9188-7f55258fe2e6": {
+        "title": "PERICLES - Promoting and Enhancing Reuse of Information throughout the ContentLifecycle taking account of Evolving Semantics (RTD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-02-01 12:00:00+00:00",
+        "endDate": "2017-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "05454ab8-5bbc-4d69-82df-859c9d4c7e1e": {
+        "title": "DARE: Delivering Agile Research Excellence on European e-Infrastructures",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-01-01 12:00:00+00:00",
+        "endDate": "2020-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "bfdb17bd-f512-4d7c-8f69-8142c457d080": {
+        "title": "European E-Infrastructure Services Gateway",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-01-01 12:00:00+00:00",
+        "endDate": "2019-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "d7998ecd-59b7-4c57-9a36-176251ac30a8": {
+        "title": "CityFlow: OpenFlow City Expe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2014-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "b45235c1-4528-46bd-9d7d-8cc775f58b8b": {
+        "title": "CityFlow: OpenFlow City Expe",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2014-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "15a5b70d-af07-4381-9dc9-446476fc3dbc": {
+        "title": "An Enhanced Visual Workbench for OGSA-DAI",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-08-01 11:00:00+00:00",
+        "endDate": "2011-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "cc706e1a-1c5b-4180-8177-dba29fdcf19c": {
+        "title": "EUDAT2020",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-03-01 12:00:00+00:00",
+        "endDate": "2018-02-28 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "f5460f68-c473-405f-b51a-65ceca14966c": {
+        "title": "Supporting e-Infrastructure Uptake through Community Champions for Research",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-04-18 11:00:00+00:00",
+        "endDate": "2013-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5eb3902e-1edc-4b3b-a3dd-dab09553b420",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rob-baxter(5eb3902e-1edc-4b3b-a3dd-dab09553b420).html",
+                "name": "Robert Baxter"
+            }
+        ]
+    },
+    "438717f1-677d-46f4-83ed-230e09453532": {
+        "title": "Corvidae Recommendation Engine",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-09-02 11:00:00+00:00",
+        "endDate": "2020-09-01 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "b3e3dad6-1a53-4805-ab38-1e695e7ff3b8": {
+        "title": "DUNE UK Production Project",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-10-01 11:00:00+00:00",
+        "endDate": "2023-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "4910b86d-2fe3-4fd3-98d8-b8a56ee55e20": {
+        "title": "BBSRC-NSF/BIO: RiboViz for reliable, reproducible and rigorous quantification of protein synthesis from ribosome profiling data.",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-05-01 11:00:00+00:00",
+        "endDate": "2022-04-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "95214b73-8670-47ee-8b08-cf8faad18715": {
+        "title": "ECO2Clouds: Experimental Awareness of CO2 in Federated Cloud Sourcing",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2014-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "41214e9a-85fb-4dbb-93fa-7c0f78487f45": {
+        "title": "ECO2Clouds: Experimental Awareness of CO2 in Federated Cloud Sourcing",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2014-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "ad6c8ec3-4e5f-4f9a-a092-d75e58f6edfa": {
+        "title": "Fed4FIRE (Other)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2016-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "a7a0b567-9219-4009-af86-71880659cd32": {
+        "title": "Fed4FIRE (RTD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-10-01 11:00:00+00:00",
+        "endDate": "2016-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "36fe46ae-67d0-4580-976d-335ff922b9e5",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kostas-kavoussanoskavoussanakis(36fe46ae-67d0-4580-976d-335ff922b9e5).html",
+                "name": "Konstantinos Kavoussanos-Kavoussanakis"
+            }
+        ]
+    },
+    "8a7ad780-edd2-4856-ac4a-3babf65a3add": {
+        "title": "EPSRC-ARCHER RAP TopUp for EP/K00963X/1: Boiling in microchannels: intergrated design of closed-loop cooling system for devices operating at high heat fluxes",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-02-15 00:00:00+00:00",
+        "endDate": "2017-02-14 09:16:19.164000+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "c21d4bc6-430e-47c7-8e4f-08b4fb00127d": {
+        "title": "Edinburgh Fluid Dynamics Group",
+        "description": "The Edinburgh Fluid Dynamics Group aims to promote a sustainable culture of cooperation and leadership in fluid mechanics research within the University of Edinburgh.<br/><br/>Fluid mechanics is relevant to a wide variety of fields including, for instance, acoustics, bio-medicine, aerodynamics, engines, air/sea/land vehicles, renewable energy, weather systems, floods, fires, cosmology, and astrophysics.<br/><br/>At Edinburgh University there are more than 70 academics and several hundreds of postgraduate researchers across the Colleges of Science &amp; Engineering and Medicine &amp; Veterinary Medicine who conduct research in fluid mechanics.<br/><br/>The group aims to provide coordination or leadership to deploy these intellectual resources to win large cooperative funding bids.",
+        "keywords": "",
+        "startDate": "2014-06-30 22:06:41.299000+00:00",
+        "endDate": "2015-06-30 22:07:21.340000+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "a7b68bd8-e345-4739-89ba-1f14c498dd0c": {
+        "title": "Performance enhancement and optimization of the TPLS and DIM two-phase flow solvers",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-07-02 14:15:50.933000+00:00",
+        "endDate": "2013-04-30 14:16:02.366000+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "3d1c8c18-5c4a-4a2a-81a8-63708faebdf7": {
+        "title": "Data-Driven Coarse-Graining using Space-Time Diffusion Maps",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-01-01 12:00:00+00:00",
+        "endDate": "2019-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "d2221bc2-c76c-4844-9115-b8e139190949": {
+        "title": "SI2-CHE:  Developing First Principles Monte Carlo Methods for Reactive Phase and Sorption Equilibria in the CP2k Software Suite",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-09-26 11:00:00+00:00",
+        "endDate": "2016-09-25 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "b3f9fcb0-877a-4323-b596-3d1cac90f017": {
+        "title": "CP2K-UK",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-09-01 11:00:00+00:00",
+        "endDate": "2017-06-18 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "f3e5bae4-6408-4026-acff-e45ebcb739c4": {
+        "title": "Boiling in microchannels: intrgrated design of closed-loop cooling system for devices operating at high heat fluxes",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-05-01 11:00:00+00:00",
+        "endDate": "2016-10-30 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "00cab414-5e3d-4bcf-b4b4-185d0058bbc7": {
+        "title": "S12-CHE: ExSTASY Extensible Tools for Advanced Sampling and analYsis",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-07-01 11:00:00+00:00",
+        "endDate": "2016-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "d2b67068-144d-4e2f-8755-f2f5a7f8deb3": {
+        "title": "HPC Simulations of complex solids and clusters using static lattice techniques",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2013-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d8c85d57-e577-41fd-9edd-bde9ad9abb98",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/iain-bethune(d8c85d57-e577-41fd-9edd-bde9ad9abb98).html",
+                "name": "Iain Bethune"
+            }
+        ]
+    },
+    "49a073df-c138-4306-98a3-11f8fae3566b": {
+        "title": "Hazard forecasting in real time",
+        "description": "EFFORT is a UK NERC funded research project running from January 2011 to January 2014. It is a multi-disciplinary collaboration between geoscientists (School of GeoSciences, University of Edinburgh), rock physicists (Department of Earth Sciences, UCL), and informaticians (School of Informatics, University of Edinburgh). Brittle failure of the crust is likely to play a key role in controlling the timing of a range of geophysical hazards, such as volcanic eruptions, yet the predictability of brittle failure is unknown.<br/><br/>EFFORT aims to develop and apply a facility for developing and testing models to forecast brittle failure in experimental and natural data. Model testing will be done in real-time, prospective mode (i.e. before failure has occurred) in order to avoid selection biases that are possible in retrospective analyses. The project will ultimately quantify the predictability of brittle failure, and how this predictability scales from simple, controlled laboratory conditions to the complex, uncontrolled real world.<br/>",
+        "keywords": "",
+        "startDate": "2011-01-01 12:00:00+00:00",
+        "endDate": "2014-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "e36e60be-cb42-4c61-8151-517e254b280e",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rosa-filgueira-vicente(e36e60be-cb42-4c61-8151-517e254b280e).html",
+                "name": "Rosa Filgueira Vicente"
+            }
+        ]
+    },
+    "3903aeb2-04a7-4952-88b8-8e8534023479": {
+        "title": "SKA-Link: Combining knowledge to pioneer big-data solutions for SKA, CSIC grant,",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-01-01 01:41:34.944000+00:00",
+        "endDate": "2018-12-31 01:42:19.814000+00:00",
+        "people": [
+            {
+                "uuid": "e36e60be-cb42-4c61-8151-517e254b280e",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/rosa-filgueira-vicente(e36e60be-cb42-4c61-8151-517e254b280e).html",
+                "name": "Rosa Filgueira Vicente"
+            },
+            {
+                "uuid": "b0e3c991-6aac-4f97-9e6e-275d20b5ce91",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/amrey-krause(b0e3c991-6aac-4f97-9e6e-275d20b5ce91).html",
+                "name": "Amrey Krause"
+            }
+        ]
+    },
+    "16c2bcd2-b764-4b80-a2d0-0ded29f3b33d": {
+        "title": "EC: STRONGNET",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-01-01 12:00:00+00:00",
+        "endDate": "2013-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/stephen-booth(b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c).html",
+                "name": "Stephen Booth"
+            }
+        ]
+    },
+    "46f20868-0618-4f86-9250-69182058d0fe": {
+        "title": "UKQCD Work area of the GridPP project",
+        "description": "",
+        "keywords": "",
+        "startDate": "2002-04-01 11:00:00+00:00",
+        "endDate": "2005-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/stephen-booth(b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c).html",
+                "name": "Stephen Booth"
+            },
+            {
+                "uuid": "edbe5450-e7d0-43d8-8700-4982f415b3e7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-d-simpson(edbe5450-e7d0-43d8-8700-4982f415b3e7).html",
+                "name": "Alan Simpson"
+            }
+        ]
+    },
+    "59afdbe8-a944-4b86-818a-50b37a9a9de2": {
+        "title": "Portable effficient software for QCD simulations",
+        "description": "",
+        "keywords": "",
+        "startDate": "2001-03-30 11:00:00+00:00",
+        "endDate": "2003-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/stephen-booth(b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c).html",
+                "name": "Stephen Booth"
+            }
+        ]
+    },
+    "79a64f2b-1b8d-4edb-9a68-98c613e3dc9c": {
+        "title": "GRID SAFE - Accounting and client usage Monitoring framework",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-09-01 11:00:00+00:00",
+        "endDate": "2010-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/stephen-booth(b1fdf0bf-ae1e-4b47-94f6-a488f8d2f14c).html",
+                "name": "Stephen Booth"
+            }
+        ]
+    },
+    "5377b24c-aa4e-4d64-ada9-20033657a40b": {
+        "title": "Intel Parallel Computing Centre",
+        "description": "Collaboration with Intel on parallel computing",
+        "keywords": "",
+        "startDate": "2014-04-01 11:00:00+00:00",
+        "endDate": "2018-04-01 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d4d60fa9-f262-4020-87b2-fcc1bdd8a416",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/fiona-reid(d4d60fa9-f262-4020-87b2-fcc1bdd8a416).html",
+                "name": "Fiona Reid"
+            }
+        ]
+    },
+    "89391019-0e39-46a6-b905-afa74a4ec1e2": {
+        "title": "Exascale Programming Models for Heterogeneous Systems",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-09-01 11:00:00+00:00",
+        "endDate": "2021-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "f176019f-2f77-4293-b259-ba7f82071a63": {
+        "title": "EPiGRAM: Exascale Programming Models (RTD)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-11-01 12:00:00+00:00",
+        "endDate": "2016-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "218a70a1-9af7-459b-ab87-5a2121c8f461": {
+        "title": "EPiGRAM: Exascale Programming Models (MGT)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-11-01 12:00:00+00:00",
+        "endDate": "2016-10-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "b4f0bcce-0e40-463c-8158-ea8627a488bb": {
+        "title": "SI2-CHE: Development and Deployment of Chemical Software for Advanced Potential Energy Surfaces",
+        "description": "",
+        "keywords": "",
+        "startDate": "2013-04-09 11:00:00+00:00",
+        "endDate": "2016-04-08 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "acd522ac-b2aa-481b-bc21-ac783fc616e8": {
+        "title": "Potential Energy Surfaces of various accurancy for bio-molecular simulations",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-11-18 12:00:00+00:00",
+        "endDate": "2012-09-17 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "bf3d98c2-21ec-4233-a4f3-86bc5ba0ea53": {
+        "title": "EUFORIA: EU Fusion for ITER Applications",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-01-01 12:00:00+00:00",
+        "endDate": "2010-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "22ddb396-7f63-4f4e-a1b7-d19b18d603be": {
+        "title": "Simulation of Mechanical Behaviour of Martensites using Multicore Technology.",
+        "description": "",
+        "keywords": "",
+        "startDate": "2008-02-01 12:00:00+00:00",
+        "endDate": "2009-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5c748338-46b1-485e-95af-511b43c62836",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/lorna-smith(5c748338-46b1-485e-95af-511b43c62836).html",
+                "name": "Lorna Smith"
+            }
+        ]
+    },
+    "2cbab556-665f-433c-aab3-1bd3134568e8": {
+        "title": "TEXT",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2012-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "e6f5d1cd-ce4a-4aed-876a-fe0ffcac6ace": {
+        "title": "TEXT",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2012-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "4df1075b-44df-4fd8-9a47-bc51bb5ea35d": {
+        "title": "TEXT",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-06-01 11:00:00+00:00",
+        "endDate": "2012-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "5b939d6d-a52e-490b-bd1b-915bcc9c217e": {
+        "title": "Programming Model INTERoperability ToWards Exascale",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-10-01 11:00:00+00:00",
+        "endDate": "2018-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "1d1cfd76-38af-4ed6-b87c-429898a163fe": {
+        "title": "Beatbox-HPC Environment for Biophysically and Anatomically realistic Cardiac Simulations",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-09-01 11:00:00+00:00",
+        "endDate": "2013-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "f6c70ee8-7e44-4aee-b21b-d7a7c0834dfd": {
+        "title": "Firegrid - An integrated Emergency Response System for the built environment",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-04-14 11:00:00+00:00",
+        "endDate": "2009-04-13 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "7e7c6903-f32f-4ac0-a970-18a835523cd3": {
+        "title": "Novel Asynchronous Algorithms and Software for Large Sparse Systems",
+        "description": "",
+        "keywords": "",
+        "startDate": "2010-10-01 11:00:00+00:00",
+        "endDate": "2014-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "74a6df89-ca2e-47fd-86d0-bfec559e3b7f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/mark-bull(74a6df89-ca2e-47fd-86d0-bfec559e3b7f).html",
+                "name": "Jonathan Bull"
+            }
+        ]
+    },
+    "70d64698-08f6-4f3c-8427-fc45de5899a3": {
+        "title": "Enhanced Multiscale Boiling Surfaces (EMBOSS): From Fundamentals to Design",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-02-01 12:00:00+00:00",
+        "endDate": "2022-01-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "4344842c-1a8c-4370-9952-6edc964c2590",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/david-scott(4344842c-1a8c-4370-9952-6edc964c2590).html",
+                "name": "David Scott"
+            }
+        ]
+    },
+    "66722244-c406-47b0-adb2-3a13fd2edf9f": {
+        "title": "The Parameter Optimisation Problem: Addressing a Key Challenge in Computational Systems Biology",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-06-01 11:00:00+00:00",
+        "endDate": "2020-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "d60b7709-7a8c-48b8-8bd0-8c90f9d0fc6c",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alastair-hume(d60b7709-7a8c-48b8-8bd0-8c90f9d0fc6c).html",
+                "name": "Alastair Hume"
+            }
+        ]
+    },
+    "32500873-72c7-4a9b-90cb-f6693af60888": {
+        "title": "Edinburgh Data Carpentry",
+        "description": "SFC Workforce Development training fund project to deliver Data Carpentry workshops in the Edinburgh area, led by EPCC.",
+        "keywords": "",
+        "startDate": "2020-01-01 12:00:00+00:00",
+        "endDate": "2020-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "fbede9f2-4bfc-4457-bd11-263459a187ee": {
+        "title": "The UK Software Sustainability Institute: Phase 3",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-12-01 12:00:00+00:00",
+        "endDate": "2023-11-30 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "9da7eaeb-8d07-48c8-85d8-c97094a38b99": {
+        "title": "Research Data Shared Service: Software Deposit and Preservation Guidance",
+        "description": "",
+        "keywords": "",
+        "startDate": "2017-08-01 11:00:00+00:00",
+        "endDate": "2018-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "916a49bf-486a-4595-90b1-ca92fa2c66c3": {
+        "title": "The Software Sustainability Institute: Phase 2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-06-01 11:00:00+00:00",
+        "endDate": "2019-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "c4574a22-276f-49f4-8ae4-10a925169a8a": {
+        "title": "Rapport: Robust Application Porting for HPC in the cloud",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-02-01 12:00:00+00:00",
+        "endDate": "2011-10-14 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "bfa8e0d7-1d57-480f-b720-1a52f73e8038": {
+        "title": "OGSA-DAI: an OMII-UK node - Services and Middleware for e-Science",
+        "description": "This project was undertaken by a consortium of Edinburgh, Manchester and Southampton Universities.  It supported the development of software and software teams on which UK researchers depend in the Grid and Cloud contexts.",
+        "keywords": "",
+        "startDate": "2005-11-01 12:00:00+00:00",
+        "endDate": "2010-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/neil-chue-hong(ccbc9e4a-d25e-41fd-9a73-9f16e6c418dd).html",
+                "name": "Neil Chue Hong"
+            }
+        ]
+    },
+    "276cd0dc-6ae1-4c6c-b814-f925696110e6": {
+        "title": "Developing advanced ground penetrating radar modelling for detection of shallow depth utilities.",
+        "description": "",
+        "keywords": "",
+        "startDate": "2016-10-13 11:00:00+00:00",
+        "endDate": "2017-10-12 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "e57944c2-0837-49ad-b21a-058a5cdd2d5f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-gray(e57944c2-0837-49ad-b21a-058a5cdd2d5f).html",
+                "name": "Alan Gray"
+            }
+        ]
+    },
+    "5a1353f9-2ee9-45e7-953f-3f07208630a6": {
+        "title": "Development of gpgpu tools for modelling complex phenotypes",
+        "description": "",
+        "keywords": "",
+        "startDate": "2012-07-01 11:00:00+00:00",
+        "endDate": "2013-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "e57944c2-0837-49ad-b21a-058a5cdd2d5f",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-gray(e57944c2-0837-49ad-b21a-058a5cdd2d5f).html",
+                "name": "Alan Gray"
+            }
+        ]
+    },
+    "5d443c05-92ac-491c-aa48-d996db3c845a": {
+        "title": "Multiscale modelling of magnetised plasma",
+        "description": "",
+        "keywords": "",
+        "startDate": "2009-06-01 11:00:00+00:00",
+        "endDate": "2013-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "9e55c4a7-ba74-4a5a-8912-e9f1a635b051",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/joachim-hein(9e55c4a7-ba74-4a5a-8912-e9f1a635b051).html",
+                "name": "Joachim Hein"
+            }
+        ]
+    },
+    "22c95767-e1aa-45a2-bae8-bffde597073a": {
+        "title": "CASE Studentship: Tom Edwards",
+        "description": "",
+        "keywords": "",
+        "startDate": "2006-09-01 11:00:00+00:00",
+        "endDate": "2009-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "9e55c4a7-ba74-4a5a-8912-e9f1a635b051",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/joachim-hein(9e55c4a7-ba74-4a5a-8912-e9f1a635b051).html",
+                "name": "Joachim Hein"
+            }
+        ]
+    },
+    "cd3f51ee-cb51-4151-b038-308389937e48": {
+        "title": "High performance computing for wind energy",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-06-01 11:00:00+00:00",
+        "endDate": "2021-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "85570b08-ae7e-4fea-a652-6a92c91a6f18": {
+        "title": "Percipient Storage for Exascale Data Centric Computing2",
+        "description": "",
+        "keywords": "",
+        "startDate": "2018-09-01 11:00:00+00:00",
+        "endDate": "2021-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "302a9975-3879-4f74-bc99-a429da6e4119": {
+        "title": "A new simulation and optimisation platform for marine technology",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-03-31 11:00:00+00:00",
+        "endDate": "2018-03-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "f99de59c-7d7f-47d9-959d-4638144f3812": {
+        "title": "ADEPT: ADressing Energy in Parallel Technologies (MGT)",
+        "description": "The Adept project will address the challenge of energy-efficient use of parallel technologies. Adept will build on the expertise of software developers from high-performance computing (HPC) to exploit parallelism for performance, and on the expertise of Embedded systems engineers in managing energy usage.<br/><br/>Adept will develop a tool that will guide software developers and help them to model and predict the power consumption and performance of parallel software and hardware. Adept will investigate the implications of parallelism in programming models and algorithms, as well as choice of hardware, on energy and power consumption.",
+        "keywords": "",
+        "startDate": "2013-09-01 11:00:00+00:00",
+        "endDate": "2016-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "d552285a-94cc-437a-a398-f4568db84acf": {
+        "title": "ADEPT: ADressing Energy in Parallel Technologies (RTD)",
+        "description": "The Adept project will address the challenge of energy-efficient use of parallel technologies. Adept will build on the expertise of software developers from high-performance computing (HPC) to exploit parallelism for performance, and on the expertise of Embedded systems engineers in managing energy usage.<br/><br/>Adept will develop a tool that will guide software developers and help them to model and predict the power consumption and performance of parallel software and hardware. Adept will investigate the implications of parallelism in programming models and algorithms, as well as choice of hardware, on energy and power consumption.",
+        "keywords": "",
+        "startDate": "2013-09-01 11:00:00+00:00",
+        "endDate": "2016-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "4547d2f4-cc67-43b8-899d-e8f8d6565fc5": {
+        "title": "Development of a Met Office NERC cloud model (MONC)",
+        "description": "",
+        "keywords": "",
+        "startDate": "2014-01-01 12:00:00+00:00",
+        "endDate": "2015-08-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "348c6ae6-8c58-42fe-b3a0-ec289094f155": {
+        "title": "ExaFLOW: Enabling Exascale Fluid Dynamics Simulations",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-10-01 11:00:00+00:00",
+        "endDate": "2018-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "2c092421-bca7-4b9e-bd62-f31063827f9f": {
+        "title": "Analysis of virulence dterminants in full length H5N1 influenza genomes using computational modelling",
+        "description": "Highly pathogenic avian influenza, particularly the H5N1 strain, has been the cause of several major outbreaks in Asian poultry and is a serious threat to human health for those exposed to diseased birds.  The major concern is that through a few mutations it could become serious threat to the human population on a global scale.  In this H5N1 project, we sought to understand which mutations caused the avian H5N1 virus to be especially pathogenic for mammals by analysing viral genome sequence data with sophisticated statistical methods.  We found that whilst single mutations could have an effect, it was the combination of mutations that resulted in the most pathogenic strains.  Importantly, it is not just the mutations on the easily testable surface proteins of the virus that can enhance pathogenicity, but mutations in the internal replication machinery proteins also have a significant effect.",
+        "keywords": "",
+        "startDate": "2007-06-18 11:00:00+00:00",
+        "endDate": "2011-01-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "5cc53924-c9cf-4f7f-9c0e-a02673f5fba4",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michele-weiland(5cc53924-c9cf-4f7f-9c0e-a02673f5fba4).html",
+                "name": "Michele Weiland"
+            }
+        ]
+    },
+    "1f59722b-3648-4832-a9e5-d67defc89ddc": {
+        "title": "Rare Events via Parallel Forward Flux Sampling",
+        "description": "",
+        "keywords": "",
+        "startDate": "2011-10-01 11:00:00+00:00",
+        "endDate": "2013-09-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "bfb89141-96c1-4077-a136-69b0181071fd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kevin-stratford(bfb89141-96c1-4077-a136-69b0181071fd).html",
+                "name": "Kevin Stratford"
+            }
+        ]
+    },
+    "a2faba8d-0824-473e-b849-f5c37022cdca": {
+        "title": "TeraScale Shear Flow Challenge",
+        "description": "This project aimed to investigate the properties of two types of non-equilibrium complex fluid system using computer simulation. First, two-component mixtures under shear were examined, and second, nucleation of the crystal structures in liquid crystal systems.<br/>",
+        "keywords": "",
+        "startDate": "2008-04-01 11:00:00+00:00",
+        "endDate": "2009-05-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "bfb89141-96c1-4077-a136-69b0181071fd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kevin-stratford(bfb89141-96c1-4077-a136-69b0181071fd).html",
+                "name": "Kevin Stratford"
+            }
+        ]
+    },
+    "18f5e8a6-d7db-4978-a88c-7d429574c68a": {
+        "title": "Mediteranean model networking and archiving program (MEDNET)",
+        "description": "",
+        "keywords": "",
+        "startDate": "1998-11-01 12:00:00+00:00",
+        "endDate": "2001-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "bfb89141-96c1-4077-a136-69b0181071fd",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/kevin-stratford(bfb89141-96c1-4077-a136-69b0181071fd).html",
+                "name": "Kevin Stratford"
+            }
+        ]
+    },
+    "5809a92d-d9d6-47de-9266-afbcd09ce88c": {
+        "title": "PRACE 6th Implementation Phase Project",
+        "description": "",
+        "keywords": "",
+        "startDate": "2019-05-01 11:00:00+00:00",
+        "endDate": "2021-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "edbe5450-e7d0-43d8-8700-4982f415b3e7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-d-simpson(edbe5450-e7d0-43d8-8700-4982f415b3e7).html",
+                "name": "Alan Simpson"
+            }
+        ]
+    },
+    "d5d449cd-c843-44dd-8862-59bef2a2063a": {
+        "title": "UK HEC Collaboration, Core support for High End computing",
+        "description": "",
+        "keywords": "",
+        "startDate": "2000-01-01 12:00:00+00:00",
+        "endDate": "2002-12-31 12:00:00+00:00",
+        "people": [
+            {
+                "uuid": "edbe5450-e7d0-43d8-8700-4982f415b3e7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-d-simpson(edbe5450-e7d0-43d8-8700-4982f415b3e7).html",
+                "name": "Alan Simpson"
+            }
+        ]
+    },
+    "482b397b-0d4b-479e-9fdf-dba56fa72c3f": {
+        "title": "ARCHER Outreach: Promoting HPC Diversity, Outreach, Impact and Engagement",
+        "description": "",
+        "keywords": "",
+        "startDate": "2015-04-01 11:00:00+00:00",
+        "endDate": "2018-03-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "edbe5450-e7d0-43d8-8700-4982f415b3e7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-d-simpson(edbe5450-e7d0-43d8-8700-4982f415b3e7).html",
+                "name": "Alan Simpson"
+            }
+        ]
+    },
+    "4742c666-6686-45eb-9284-58a98ecc1a2c": {
+        "title": "EPCC HPCI Centre: Consortia support for 1999 to 2002",
+        "description": "",
+        "keywords": "",
+        "startDate": "1999-11-01 12:00:00+00:00",
+        "endDate": "2002-06-30 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "edbe5450-e7d0-43d8-8700-4982f415b3e7",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/alan-d-simpson(edbe5450-e7d0-43d8-8700-4982f415b3e7).html",
+                "name": "Alan Simpson"
+            }
+        ]
+    },
+    "f25cac3e-3ce1-4bf1-a5e4-648a31de81ac": {
+        "title": "NoChaPFI: Novel Characterisation Platform for Formulation Industry",
+        "description": "",
+        "keywords": "",
+        "startDate": "2020-02-01 12:00:00+00:00",
+        "endDate": "2021-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "43b4b161-fa22-4acb-969e-835ae12eeefa",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michael-jackson(43b4b161-fa22-4acb-969e-835ae12eeefa).html",
+                "name": "Michael Jackson"
+            }
+        ]
+    },
+    "a1c705eb-d2ec-4dc4-b88d-ab6d0899e547": {
+        "title": "Managing Research Data Programme",
+        "description": "Investigation into the application of linked data to the arts and humanities. A collaboration with Kings College, London. Funded under the JISC Managing Research Data Programme. Mark Hedges at Kings College, London was the overall PI. Mike Jackson was the PI at Edinburgh.",
+        "keywords": "",
+        "startDate": "2010-08-01 11:00:00+00:00",
+        "endDate": "2011-07-31 11:00:00+00:00",
+        "people": [
+            {
+                "uuid": "43b4b161-fa22-4acb-969e-835ae12eeefa",
+                "url": "https://www.research.ed.ac.uk/portal/en/persons/michael-jackson(43b4b161-fa22-4acb-969e-835ae12eeefa).html",
+                "name": "Michael Jackson"
+            }
+        ]
+    }
+}

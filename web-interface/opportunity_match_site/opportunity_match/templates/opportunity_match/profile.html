@@ -1,0 +1,237 @@
+{% extends 'opportunity_match/base.html' %}
+
+{% block head_extra %}
+<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+<style type="text/css">
+    #mynetwork {
+        width: 100%;
+        height: 400px;
+        border: 1px solid lightgray;
+    }
+
+    div#cellBatchAttrPopUp {
+        display: none;
+        position: absolute;
+        z-index: 2000;
+        padding: 4px 8px;
+        color: #333;
+        white-space: nowrap;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -moz-box-shadow: 0px 0px 4px #222;
+        -webkit-box-shadow: 0px 0px 4px #222;
+        box-shadow: 0px 0px 4px #222;
+        background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+        background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+        background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    }
+    .circle {
+        border-radius: 50%/50%; 
+        width: 12px;
+        height: 12px;
+    }
+    .circle_person {
+      border: 1px solid #FA0A10;
+      background: #FB7E81;
+    }
+    .circle_research_output {
+      border: 1px solid #FFA500;
+      background: #FFFF00;
+    }
+    .circle_project {
+      border: 1px solid #41A906;
+      background: #7BE141;
+    }
+    .circle_profile {
+      border: #C37F00;
+      background: #FFA807;
+    }
+
+</style>
+
+{% endblock %}
+
+{% block header %}
+{% if person %}
+{{person.name}}
+{% else %}
+Your Profile
+{% endif %}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <h4 class="font-weight-light">{{person.job_title}}</h4>
+    <p>
+    {% for org in person.organisations %}
+    <small><a href="{{org.url}}">{{org.name}}</a></small><br/>
+    {% endfor %}
+    </p>
+
+{% if image_base64 %}
+<div>
+  <img class="img-fluid" src="data:image/png;base64, {{ image_base64 }}" />
+</div>
+{% endif %}
+
+{% if graph %}
+<h4 class="mt-4">Research Network</h4>
+<div class="container-fluid">
+    <div id="mynetwork"></div>
+    <div class="row justify-content-end align-items-center mr-2">
+        <div class="circle circle_project"></div><div class="ml-1 mr-2">Project</div>
+        <div class="circle circle_research_output"></div><div class="ml-1 mr-2">Research Output</div>
+        <div class="circle circle_profile"></div><div class="ml-1 mr-2">Research Interests</div>
+        <div class="circle circle_person"></div><div class="ml-1">Person</div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var nodelist = {{ graph.nodes | safe }};
+    var edgelist = {{ graph.edges | safe }};
+    // create a network
+    var container = document.getElementById('mynetwork');
+
+    var nodes = new vis.DataSet(nodelist);
+    var edges = new vis.DataSet(edgelist);
+
+    // provide the data in the vis format
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = {
+        interaction: {
+          zoomView: true,
+          hover: true,
+        },
+        nodes : {
+            shape: 'dot',
+            size: 10
+        },
+        groups: {
+            root: {color: {border: "#2B7CE9", background: "#97C2FC", highlight: {border: "#2B7CE9", background: "#D2E5FF"}, hover: {border: "#2B7CE9", background: "#D2E5FF"}}}, // 0: blue
+            research_output: {color: {border: "#FFA500", background: "#FFFF00", highlight: {border: "#FFA500", background: "#FFFFA3"}, hover: {border: "#FFA500", background: "#FFFFA3"}}}, // 1: yellow
+            person: {color: {border: "#FA0A10", background: "#FB7E81", highlight: {border: "#FA0A10", background: "#FFAFB1"}, hover: {border: "#FA0A10", background: "#FFAFB1"}}}, // 2: red
+            project: {color: {border: "#41A906", background: "#7BE141", highlight: {border: "#41A906", background: "#A1EC76"}, hover: {border: "#41A906", background: "#A1EC76"}}}, // 3: green
+            profile: {color: {border: "#C37F00", background: "#FFA807", highlight: {border: "#C37F00", background: "#FFCA66"}, hover: {border: "#C37F00", background: "#FFCA66"}}}, // 6: orange
+        },
+        physics: {
+            enabled:false
+        }
+    };
+
+    var network = new vis.Network(container, data, options);
+    network.stabilize(2000);
+
+    // https://stackoverflow.com/questions/48150985/vis-js-network-fixed-position-for-tooltip-popup
+    network.on('click', function (properties) {
+        var nodeID = properties.nodes[0];
+        if (nodeID && this.body.nodes[nodeID].options.group == 'person') {
+            var sToolTip = this.body.nodes[nodeID].options.title;
+            var canvasPosition = $('#mynetwork').position();
+            var sidebarWidth = $('#sidebarMenu').outerWidth(true);
+            var navbarHeight = $('#navbarsExampleDefault').outerHeight(true);
+            var clickX = properties.pointer.DOM.x + canvasPosition.left + sidebarWidth;
+            var clickY = properties.pointer.DOM.y + canvasPosition.top + navbarHeight;
+            //make sure we have a valid div, either clear it or generate one.
+            if ($('#cellBatchAttrPopUp').length) {
+                $('div#cellBatchAttrPopUp').empty();
+            }
+            else {
+                $('<div id="cellBatchAttrPopUp"></div>').click(function () {
+                //clicking the popup hides it again.
+                    $(this).empty().hide();
+                }).css('position','absolute').appendTo("body");
+            }
+            // put the div over the node, display the tooltip and show it.
+            $('div#cellBatchAttrPopUp')
+                    .append('<a href="/opportunity_match/person/'+ nodeID +'">' + sToolTip + ' &raquo;</a>')
+                    .css('top', clickY).css('left', clickX)
+                    .show();
+        }
+        else {
+            $('div#cellBatchAttrPopUp').hide();
+        }
+    });
+</script>
+{% endif %}
+
+{% if not person %}
+<div class="d-flex w-100 justify-content-between">
+    <h4>Research Interests</h4>
+    <a href="{% url 'edit_profile' %}" class="btn btn-primary mb-2">Create</a>
+</div>
+{% endif %}
+
+{% if profiles %}
+{% if person %}<h4 class="mt-4">Research Interests</h4>{% endif %}
+<div class="list-group pb-1">
+    {% for item in profiles %}
+    <div class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+        <small class="text-muted">
+            {{item.name}}
+        </small>
+        <small class="text-muted">
+            {{item.created|date:"d/m/Y H:i" }}
+        </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+        <p class="mb-1">
+            {{ item.text | linebreaksbr }}
+        </p>
+        {% if not person %}
+        <div>
+            <a class="linkicon" href="{% url 'edit_profile_id' item.id %}"><span data-feather="edit"></span></a>
+        </div>
+        {% endif %}
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if publications %}
+<h4 class="mt-4">Research Output</h4>
+<div class="list-group mt-4">
+    {% for item in publications %}
+    {% if not 'profile' in item.type %}
+    <div class="list-group-item list-group-item-action flex-column align-items-start">
+        <small class="text-muted">
+            {% for t in item.type %}
+            {{t}}
+            {%endfor%}</small>
+        <div class="d-flex w-100 justify-content-between">
+          <div class="mb-1 font-weight-bold">
+              {% if item.source.url %}
+              <a href="{{item.source.url}}">{{item.title}}</a>
+              {% else %}
+              <a href="https://www.research.ed.ac.uk/portal/en/projects/searchall.html?searchall={{item.document_id}}">{{item.title}}</a>
+              {% endif %}
+          </div>
+          <small class="text-muted">{{item.startDate}} - {{item.endDate}}</small>
+        </div>
+        <p class="mb-1">
+            {% for author in item.source.names %}
+                {{author.name}},
+            {% endfor%}
+        </p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>  
+  {% endif %}  
+
+</div>
+
+
+{% endblock %}

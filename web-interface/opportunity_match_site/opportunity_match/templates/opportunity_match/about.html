@@ -1,0 +1,92 @@
+{% load bootstrap4 %}
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Opportunity Match</title>
+    {% bootstrap_javascript jquery='slim' %}
+    {% bootstrap_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'opportunity_match/core.css' %}">
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top ">
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="{% url 'index' %}">Opportunity Match</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          {% if user.is_authenticated %}
+          <div class="dropdown ml-auto">
+            <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {% if user.first_name and user.last_name %}
+              {{user.first_name}} {{user.last_name}}
+              {% else %}
+              {{user.username}}
+              {% endif %}
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a href="{% url 'settings' %}" class="dropdown-item pl-3">
+                <span data-feather="settings"></span>
+                Settings
+              </a>
+              <a href="{% url 'logout' %}" class="dropdown-item pl-3">
+                <span data-feather="log-out"></span>
+                Sign out
+              </a>
+            </div>
+          {% endif %}
+          </div>
+  
+        </div>
+      </nav>
+      
+    <main role="main" class="flex-shrink-0">
+        <div class="container">
+            <h1>Opportunity Match</h1>
+            <p>
+                This project aims to develop a web-based tool to match experts 
+                with opportunities such as challenge descriptions, funding programme 
+                and project ideas. The tool will allow opportunity-to-expert,
+                expert-to-expert, and opportunity-to-opportunity matching and 
+                create automated emails to users based on customised alerts. 
+                Stable releases will be immediately made available to all University 
+                staff and students, including important user groups such as researchers, 
+                business developers, and research support administrators.
+            </p>
+            <p>
+              This tool was developed by Amy Krause and Rosa Filgueira Vicente, EPCC.
+            </p>
+            <div class="container-fluid col-sm-10">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-4 col-sm-2">
+                    <img class="img-fluid" src="{% static 'opportunity_match/images/EPCClogo.jpg' %}"/>
+                  </div>
+                  <div class="col-8 col-sm-5">
+                    <img class="img-fluid" src="{% static 'opportunity_match/images/Bayes-logo-black.jpg' %}"/>
+                  </div>
+                  <div class="col-5 col-sm-5">
+                    <img class="img-fluid" src="{% static 'opportunity_match/images/DDI_logo_landscape_large.jpg' %}"/>
+                  </div>
+                </div>
+                <div class="row align-items-center justify-content-center mt-4">
+                  <div class="col-6 col-sm-5 col-md-3">
+                    <img class="img-fluid" src="{% static 'opportunity_match/images/UoE_Centred Logo_CMYK.jpg' %}"/>
+                  </div>
+                </div>
+            </div>
+            <p>&copy; The University of Edinburgh 2020.</p>
+        </div>
+    </main>
+    
+    <script>
+        feather.replace()
+    </script>
+  
+</body>
+</html>

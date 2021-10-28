@@ -1,0 +1,26 @@
+{% extends 'opportunity_match/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block header %}
+{% if update %}Edit Profile{% else %}Add Profile{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<form method="post" novalidate>
+  {% csrf_token %}
+  {{ form|crispy }}
+  <div class="pt-3">
+  {% if update %}
+  <button type="submit" name="submit" class="btn btn-primary">Update</button>
+  <button type="delete" name="delete" class="btn btn-danger">Delete</button>
+  <a href="{% url 'profile' %}" class="btn btn-secondary">Discard</a>
+  {% else %}
+  <button type="submit" name="submit" class="btn btn-primary">Save</button>
+  <a href="{% url 'profile' %}" class="btn btn-secondary">Discard</a>
+  {% endif %}
+  </div>
+</form>
+</div>
+{% endblock %}

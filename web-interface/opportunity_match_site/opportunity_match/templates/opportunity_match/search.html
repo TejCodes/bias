@@ -1,0 +1,34 @@
+{% extends 'opportunity_match/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block head_extra %}
+<style type="text/css">
+  #div_id_text {
+    margin-top: 20px;
+  }
+</style>
+
+{% endblock %}
+
+{% block header %} Search {% endblock %}
+
+{% block content %}
+<div class="container">
+  <p>Find experts with similar background and/or expertise to your search.</p>
+<form method="post" novalidate>
+  {% csrf_token %} 
+  {{ form|crispy }}
+  <div class="mt-4 row justify-content-between align-items-bottom">
+    <button type="submit" class="btn btn-success">Search</button>
+    {% if form.instance.id %}
+    <div class="font-italic">
+      <a href="{% url 'search_result' form.instance.id %}">
+      Last search: {{form.instance.timestamp | date:"j F Y H:i"}}
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</form>
+</div>
+{% endblock %}

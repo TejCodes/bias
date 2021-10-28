@@ -1,0 +1,419 @@
+{% extends 'opportunity_match/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block head_extra %}
+<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+<style type="text/css">
+    #mynetwork {
+        width: 100%;
+        height: 400px;
+        border: 1px solid lightgray;
+    }
+    #searchnetwork {
+        width: 100%;
+        height: 400px;
+        border: 1px solid lightgray;
+    }
+    #accordion { text-align: left }
+    div#cellBatchAttrPopUp {
+      display: none;
+      position: absolute;
+      z-index: 2000;
+      padding: 4px 8px;
+      color: #333;
+      white-space: nowrap;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      -moz-box-shadow: 0px 0px 4px #222;
+      -webkit-box-shadow: 0px 0px 4px #222;
+      box-shadow: 0px 0px 4px #222;
+      background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+      background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+      background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+      background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+      background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+      background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    }
+    .circle {
+      border-radius: 50%/50%; 
+      width: 12px;
+      height: 12px;
+    }
+    .circle_person {
+      border: 1px solid #FA0A10;
+      background: #FB7E81;
+    }
+    .circle_research_output {
+      border: 1px solid #FFA500;
+      background: #FFFF00;
+    }
+    .circle_project {
+      border: 1px solid #41A906;
+      background: #7BE141;
+    }
+    .circle_profile {
+      border: 1px solid #C37F00;
+      background: #FFA807;
+    }
+</style>
+<script>
+$(document).ready(function () {  
+  $('#shared').on('change', function (e) {
+    let selectedValue = this.value
+    $.ajax({
+      type: "POST",
+      url: "{% url 'search_visibility' search.id %}", 
+      headers: {'X-CSRFToken': '{{ csrf_token }}'},
+      data: { shared: selectedValue },
+    })
+    .fail(function() {
+      if (selectedValue == 'shared') {
+        $('#shared').val('private');
+      }
+      else {
+        $('#shared').val('shared');
+      }
+    })
+  });
+});
+</script>
+{% endblock %}
+
+{% block header %} Search {% endblock %}
+
+{% block content %}
+<div class="container">
+  <div>
+
+  <div class="mr-4 row justify-content-between">
+    <h4>Search</h4>
+      <div>
+        Visibility:
+        <select name="shared" id="shared">
+          <option value="shared" {%if search.shared %}selected{%endif%}>Shared</option>
+          <option value="private" {%if not search.shared %}selected{%endif%}>Private</option>
+        </select>
+      </div>
+  </div>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <span data-feather="chevron-down"></span>
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            {% if search.name %}
+            {{search.name}}
+            {% elif search.text %}
+            {{ search.text | truncatewords:10 | safe}}
+            {% else %}
+            {{ search.keywords | truncatewords:10 | safe}}
+            {% endif %}
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" {%if expand_search %}class="collapse.in" {%else%}class="collapse"{%endif%} aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          {% if search.text %}
+          <p class="font-weight-bold">Free Text</p>
+          <div>{{search.text|linebreaksbr}}</div>
+          {% endif %}
+          {% if search.keywords %}
+          <p class="font-weight-bold">Keywords</p>
+          <div>{{search.keywords}}</div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+
+  {% if not experts %}
+  <div class="mb-2 mt-2 mr-4 row justify-content-between align-items-end">
+    <h4>Results</h4>
+    <div class="font-italic">Completed: {{search.timestamp | date:"j F Y H:i"}}</div>
+  </div>
+  <div>
+    No results. <a href="{% url 'search_detail' search.id %}">Search again &raquo;</a>
+  </div>
+  {% endif %}
+
+  {% if experts %}
+  <div class="mb-2 mt-2 mr-4 row justify-content-between align-items-end">
+    <h4>Results</h4>
+    <div class="font-italic">Completed: {{search.timestamp | date:"j F Y H:i"}}</div>
+  </div>
+
+  <div class="container-fluid mb-4">
+    <div id="mynetwork"></div>
+    <div class="row justify-content-end align-items-center mr-2">
+        <div class="circle circle_project"></div><div class="ml-1 mr-2">Project</div>
+        <div class="circle circle_research_output"></div><div class="ml-1 mr-2">Research Output</div>
+        <div class="circle circle_profile"></div><div class="ml-1 mr-2">Research Interests</div>
+        <div class="circle circle_person"></div><div class="ml-1">Person</div>
+    </div>
+  </div>
+
+    <script type="text/javascript">
+        var nodelist = {{ graph.nodes | safe }};
+        var edgelist = {{ graph.edges | safe }};
+        var nodes = new vis.DataSet(nodelist);
+        var edges = new vis.DataSet(edgelist);
+        var container = document.getElementById('mynetwork');
+
+        // provide the data in the vis format
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+        var options = {
+            interaction: {
+              zoomView: true,
+              hover: true,
+            },
+            nodes : {
+              shape: 'dot',
+              size: 10
+            },
+            groups: {
+              // colours from here:
+              // https://github.com/visjs/vis-network/blob/master/lib/network/modules/Groups.js
+              root: {color: {border: "#2B7CE9", background: "#97C2FC", highlight: {border: "#2B7CE9", background: "#D2E5FF"}, hover: {border: "#2B7CE9", background: "#D2E5FF"}}}, // 0: blue
+              research_output: {color: {border: "#FFA500", background: "#FFFF00", highlight: {border: "#FFA500", background: "#FFFFA3"}, hover: {border: "#FFA500", background: "#FFFFA3"}}}, // 1: yellow
+              person: {color: {border: "#FA0A10", background: "#FB7E81", highlight: {border: "#FA0A10", background: "#FFAFB1"}, hover: {border: "#FA0A10", background: "#FFAFB1"}}}, // 2: red
+              project: {color: {border: "#41A906", background: "#7BE141", highlight: {border: "#41A906", background: "#A1EC76"}, hover: {border: "#41A906", background: "#A1EC76"}}}, // 3: green
+              profile: {color: {border: "#C37F00", background: "#FFA807", highlight: {border: "#C37F00", background: "#FFCA66"}, hover: {border: "#C37F00", background: "#FFCA66"}}}, // 6: orange
+            },
+        };
+
+        var network = new vis.Network(container, data, options);
+        network.on('click', function (properties) {
+            var nodeID = properties.nodes[0];
+            if (nodeID && this.body.nodes[nodeID].options.group == 'person') {
+                var sToolTip = this.body.nodes[nodeID].options.title;
+                var canvasPosition = $('#mynetwork').position();
+                var sidebarWidth = $('#sidebarMenu').outerWidth(true);
+                var navbarHeight = $('#navbarsExampleDefault').outerHeight(true);
+                var clickX = properties.pointer.DOM.x + canvasPosition.left + sidebarWidth;
+                var clickY = properties.pointer.DOM.y + canvasPosition.top + navbarHeight;
+                //make sure we have a valid div, either clear it or generate one.
+                if ($('#cellBatchAttrPopUp').length) {
+                    $('div#cellBatchAttrPopUp').empty();
+                }
+                else {
+                    $('<div id="cellBatchAttrPopUp"></div>').click(function () {
+                    //clicking the popup hides it again.
+                        $(this).empty().hide();
+                    }).css('position','absolute').appendTo("body");
+                }
+                // put the div over the node, display the tooltip and show it.
+                $('div#cellBatchAttrPopUp')
+                        .append('<a href="/opportunity_match/person/'+ nodeID +'">' + sToolTip + ' &raquo;</a>')
+                        .css('top', clickY).css('left', clickX)
+                        .show();
+            }
+            else {
+                $('div#cellBatchAttrPopUp').hide();
+            }
+        });
+    </script>
+  </div>
+
+  <div class="m-2 row justify-content-between align-items-center">
+    <h5>Matching Research Outputs and Experts</h5>
+    <a class="btn btn-success" href="{% url 'export_result' search.id %}">Export</a>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr class="d-flex">
+        <th class="col-7 col-sm-9"></th>
+        <th class="col-5 col-sm-3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for d in results %}
+      {% with d.document as document %}
+      {% if document.source.names %}
+      <tr class="d-flex">
+        <td class="col-7 col-sm-9">
+          <div class="mt-2 mb-2">
+          {% if document.source.url %}
+            <a href="{{document.source.url}}">{{document.title}}</a>
+          {% else %}
+            <a href="https://www.research.ed.ac.uk/portal/en/projects/searchall.html?searchall={{document.document_id}}">{{document.title}}</a>
+          {% endif %}
+          {% if 'project' in document.type %}
+            <sup>project</sup>
+          {% endif %}
+          {% if d.document.abstract %}
+            <small>
+            <div id="{{document.document_id}}">
+              {{document.abstract | truncatewords:50 | safe}}
+            </div>
+            </small>
+          {% endif %}
+          </div>
+        </td>
+        <td class="col-5 col-sm-3">
+          {% for person in d.document.source.names %}
+          <div class="mt-2 mb-2">
+            <a href="{% url 'person' person.uuid %}">{{person.name}}</a>
+          </div>
+          {% endfor %}
+        </td>
+        {% endif %}
+        {% endwith %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+<!--
+  <table class="table table-striped">
+    <thead>
+      <tr class="d-flex">
+        <th class="col-3">Name</th>
+        <th class="col-9">Research</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for es in experts %}
+      <tr class="d-flex">
+        <td class="col-3">
+          <div class="mt-2 mb-2">
+          <a href="{% url 'person' es.person.uuid %}">{{es.person.name}}</a>
+        </div>
+        </td>
+        <td class="col-9">
+          {% for document in es.person.documents %}
+          <div class="mt-2 mb-2">
+          {% if document.source.url %}
+            <a href="{{document.source.url}}">{{document.title}}</a>
+          {% else %}
+            <a href="https://www.research.ed.ac.uk/portal/en/projects/searchall.html?searchall={{document.document_id}}">{{document.title}}</a>
+          {% endif %}
+          {% if 'project' in document.type %}
+            <sup>project</sup>
+          {% endif %}
+          {% if document.abstract %}
+            <small>
+            <div id="{{document.document_id}}">
+              {{document.abstract | truncatewords:50 | safe}}
+            </div>
+            </small>
+          {% endif %}
+          </div>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+-->
+
+  <div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ page_obj.number }}
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next &raquo;</a>
+        {% endif %}
+    </span>
+  </div>
+
+  {% if similar_searches %}
+  <hr/>
+  <div class="m-2 row justify-content-between">
+    <h5>Similar Searches</h5>
+  </div>
+
+  <div class="container-fluid mb-4">
+    <div id="searchnetwork"></div>
+    <div class="row justify-content-end align-items-center mr-2">
+        <div class="circle circle_research_output"></div><div class="ml-1 mr-2">Search</div>
+        <div class="circle circle_person"></div><div class="ml-1">Person</div>
+    </div>
+  </div>
+  
+  <script type="text/javascript">
+      var nodelist = {{ similar_searches.graph.nodes | safe }};
+      var edgelist = {{ similar_searches.graph.edges | safe }};
+      var nodes = new vis.DataSet(nodelist);
+      var edges = new vis.DataSet(edgelist);
+      var container = document.getElementById('searchnetwork');
+
+      // provide the data in the vis format
+      var data = {
+          nodes: nodes,
+          edges: edges
+      };
+      var options = {
+          interaction: {
+            zoomView: true,
+            hover: true,
+          },
+          nodes : {
+              shape: 'dot',
+              size: 10
+          },
+      };
+      var searchnetwork = new vis.Network(container, data, options);
+  </script>
+  
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for simsearch in similar_searches.searches %}
+    {% if simsearch.similarity > 0.8 %}
+    <tr>
+      <td>
+        <div class="collapse-group">
+          <div class="row justify-content-between ml-4 mr-4 align-items-center">
+            <strong>
+              <a href="{% url 'search_result' simsearch.search.id %}">
+              {% if simsearch.search.name %}
+              {{simsearch.search.name}}
+              {% else %}
+              {{ simsearch.search.text | truncatewords:5 | safe}}
+              {% endif %}
+              </a>
+              <a class="btn" data-toggle="collapse" data-target="#viewdetails-{{simsearch.search.id}}">
+                  <span data-feather="chevron-down"></span>
+              </a>
+            </strong>
+            {% if simsearch.owner.uuid %}
+            <a href="{% url 'person' simsearch.owner.uuid %}">{{simsearch.owner.name}}</a>
+            {% else %}
+            {{simsearch.owner.name}}
+            {% endif %}
+          </div>
+          <p class="collapse m-2" id="viewdetails-{{simsearch.search.id}}">
+              {{ simsearch.search.text | safe}}
+              <a href="{% url 'search_result' simsearch.search.id %}">&raquo;</a>
+          </p>
+        </div>
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+    </tbody>
+    </table>
+    {% endif %}
+
+  {% endif %}
+</div>
+{% endblock %}

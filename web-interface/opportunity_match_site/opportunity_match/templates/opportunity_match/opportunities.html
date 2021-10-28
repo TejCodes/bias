@@ -1,0 +1,89 @@
+{% extends 'opportunity_match/base.html' %}
+
+{% block header %}Matches{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  <p>
+    You appeared in {{ total_searches }} 
+    {% if total_searches > 1 %}searches
+    {%else%}search{%endif%} 
+    in the past week.
+  </p>
+
+  {% if searches %}
+  <table class="table table-striped">
+    <thead>
+      <tr class="d-flex">
+        <th class="col-7">Search</th>
+        <th class="col-5">Matches</th>
+      </tr>
+    </thead>
+    <tbody>  
+        {% for search_id, opportunity in searches.items %}
+        <tr class="d-flex">
+            <td class="col-7">
+              <div class="collapse-group text-left">
+                <a class="btn" data-toggle="collapse" data-target="#viewdetails-{{search_id}}">
+                    <strong>
+                    {% if opportunity.search.name %}
+                    {{opportunity.search.name}}
+                    {% else %}
+                    {{ opportunity.search.text | truncatewords:5 | safe}}
+                    {% endif %}
+                    <span data-feather="chevron-down"></span>
+                    </strong>
+                </a>
+                <a href="{% url 'search_result' search_id %}">View &raquo;</a>
+                <p class="collapse" id="viewdetails-{{search_id}}">
+                    {{ opportunity.search.text | truncatewords:50 | safe}}
+                    <a href="{% url 'search_result' search_id %}">&raquo;</a>
+                </p>
+              </div>
+            </td>
+            <td>
+                {% for doc in opportunity.documents %}
+                <p><a href="{{ doc.source.url }}">{{ doc.title }}</a></p>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  {% if matches %}
+    <div class="mb-4 mt-4">
+        These publications appeared in searches in the last week:
+    </div>        
+
+    <div class="mt-2 mb-2">
+    <table class="table table-striped">
+      <thead>
+        <tr class="d-flex">
+          <th class="col-11"></th>
+          <th class="col-1">#</th>
+        </tr>
+      </thead>
+      <tbody>  
+        {% for match in matches %} 
+        <tr class="d-flex">
+          <td class="col-11">
+            <a href="{{match.document.source.url}}">{{match.document.title}}</a>
+            {% if 'project' in document.type %}
+            <sup>project</sup>
+            {% endif %}
+          </td>
+          <td class="col-1">{{match.mentions}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  {% endif %}
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,395 @@
+{
+    "school_distr": {
+        "ahss": {
+            "Edinburgh College of Art": {
+                "distr": [
+                    0.7421602787456446,
+                    0.2578397212543554
+                ]
+            },
+            "School of Law": {
+                "distr": [
+                    0.6298701298701299,
+                    0.37012987012987014
+                ]
+            },
+            "School of Literatures, Languages and Cultures": {
+                "distr": [
+                    0.6620689655172414,
+                    0.33793103448275863
+                ]
+            },
+            "School of History, Classics and Archaeology": {
+                "distr": [
+                    0.6602564102564102,
+                    0.33974358974358976
+                ]
+            },
+            "School of Social and Political Science": {
+                "distr": [
+                    0.6584362139917695,
+                    0.34156378600823045
+                ]
+            },
+            "School of Divinity": {
+                "distr": [
+                    0.7746478873239436,
+                    0.22535211267605634
+                ]
+            },
+            "Moray House School of Education and Sport": {
+                "distr": [
+                    0.8163265306122449,
+                    0.1836734693877551
+                ]
+            },
+            "Business School": {
+                "distr": [
+                    0.532967032967033,
+                    0.46703296703296704
+                ]
+            },
+            "School of Economics": {
+                "distr": [
+                    0.5,
+                    0.5
+                ]
+            }
+        },
+        "vm": {
+            "Royal (Dick) School of Veterinary Studies": {
+                "distr": [
+                    0.7315436241610739,
+                    0.2684563758389262
+                ]
+            },
+            "Deanery of Biomedical Sciences": {
+                "distr": [
+                    0.7024390243902439,
+                    0.2975609756097561
+                ]
+            },
+            "Deanery of Clinical Sciences": {
+                "distr": [
+                    0.7225950782997763,
+                    0.27740492170022374
+                ]
+            },
+            "Deanery of Molecular, Genetic and Population Health Sciences": {
+                "distr": [
+                    0.6415094339622641,
+                    0.3584905660377358
+                ]
+            }
+        },
+        "se": {
+            "School of Informatics": {
+                "distr": [
+                    0.5415282392026578,
+                    0.4584717607973422
+                ]
+            },
+            "School of Engineering": {
+                "distr": [
+                    0.5171232876712328,
+                    0.4828767123287671
+                ]
+            },
+            "School of Physics and Astronomy": {
+                "distr": [
+                    0.6045197740112994,
+                    0.3954802259887006
+                ]
+            },
+            "School of Biological Sciences": {
+                "distr": [
+                    0.6540880503144654,
+                    0.34591194968553457
+                ]
+            },
+            "School of Geosciences": {
+                "distr": [
+                    0.7537688442211056,
+                    0.24623115577889448
+                ]
+            },
+            "School of Chemistry": {
+                "distr": [
+                    0.6818181818181818,
+                    0.3181818181818182
+                ]
+            }
+        }
+    },
+    "avg_publishing_ratio": {
+        "ahss": {
+            "Edinburgh College of Art": 1.3092593987955994,
+            "School of Law": 1.498239071104242,
+            "School of Literatures, Languages and Cultures": 0.9988487851471555,
+            "School of History, Classics and Archaeology": 0.7627988945432279,
+            "School of Social and Political Science": 1.3930666760334443,
+            "School of Divinity": 0.9027625355441097,
+            "Moray House School of Education and Sport": 0.9650992073014516,
+            "Business School": 1.5261941487678605,
+            "School of Economics": 1.4865807179009545
+        },
+        "vm": {
+            "Royal (Dick) School of Veterinary Studies": 1.5536837753057011,
+            "Deanery of Biomedical Sciences": 2.266424966837936,
+            "Deanery of Clinical Sciences": 1.4960876012918003,
+            "Deanery of Molecular, Genetic and Population Health Sciences": 1.802238100900639
+        },
+        "se": {
+            "School of Informatics": 1.4289817365860291,
+            "School of Engineering": 1.376075310613924,
+            "School of Physics and Astronomy": 1.8401231864491254,
+            "School of Biological Sciences": 2.025770034814725,
+            "School of Geosciences": 1.6653097925645528,
+            "School of Chemistry": 1.7709432828071754
+        }
+    },
+    "tfIdf": {
+        "ahss": {
+            "Edinburgh College of Art": {
+                "distr": [
+                    0.7032416552928407,
+                    0.27151728709059386
+                ]
+            },
+            "School of Law": {
+                "distr": [
+                    0.6412145020323113,
+                    0.3518781567695838
+                ]
+            },
+            "School of Literatures, Languages and Cultures": {
+                "distr": [
+                    0.624177942375551,
+                    0.35147482742420966
+                ]
+            },
+            "School of History, Classics and Archaeology": {
+                "distr": [
+                    0.623874324833166,
+                    0.3576879541327324
+                ]
+            },
+            "School of Social and Political Science": {
+                "distr": [
+                    0.6439767031130518,
+                    0.348901586891169
+                ]
+            },
+            "School of Divinity": {
+                "distr": [
+                    0.6919015456736588,
+                    0.28326111107068447
+                ]
+            },
+            "Moray House School of Education and Sport": {
+                "distr": [
+                    0.7584360543161875,
+                    0.23721549214854984
+                ]
+            },
+            "Business School": {
+                "distr": [
+                    0.5022687486397164,
+                    0.4887464601174279
+                ]
+            },
+            "School of Economics": {
+                "distr": [
+                    0.51809318784832,
+                    0.48091951987406517
+                ]
+            }
+        },
+        "vm": {
+            "Royal (Dick) School of Veterinary Studies": {
+                "distr": [
+                    0.7320209847535638,
+                    0.26616851663664076
+                ]
+            },
+            "Deanery of Biomedical Sciences": {
+                "distr": [
+                    0.7039917132861179,
+                    0.2941383294780853
+                ]
+            },
+            "Deanery of Clinical Sciences": {
+                "distr": [
+                    0.7238288185437726,
+                    0.2754241025266424
+                ]
+            },
+            "Deanery of Molecular, Genetic and Population Health Sciences": {
+                "distr": [
+                    0.667005028766337,
+                    0.3314431216857235
+                ]
+            }
+        },
+        "se": {
+            "School of Informatics": {
+                "distr": [
+                    0.5411762048696309,
+                    0.4570939672245083
+                ]
+            },
+            "School of Engineering": {
+                "distr": [
+                    0.5048410676514898,
+                    0.4943672242787432
+                ]
+            },
+            "School of Physics and Astronomy": {
+                "distr": [
+                    0.6460345520817723,
+                    0.3503758769040135
+                ]
+            },
+            "School of Biological Sciences": {
+                "distr": [
+                    0.6899254951781433,
+                    0.30959467336544566
+                ]
+            },
+            "School of Geosciences": {
+                "distr": [
+                    0.7503457553466738,
+                    0.24758235355652275
+                ]
+            },
+            "School of Chemistry": {
+                "distr": [
+                    0.69152578154848,
+                    0.3078722446401423
+                ]
+            }
+        }
+    },
+    "doc2vec": {
+        "ahss": {
+            "Edinburgh College of Art": {
+                "distr": [
+                    0.7490024901553278,
+                    0.2509903920016635
+                ]
+            },
+            "School of Law": {
+                "distr": [
+                    0.7043966766827282,
+                    0.2955988597688404
+                ]
+            },
+            "School of Literatures, Languages and Cultures": {
+                "distr": [
+                    0.71308640229076,
+                    0.28690352021329757
+                ]
+            },
+            "School of History, Classics and Archaeology": {
+                "distr": [
+                    0.6951136586480021,
+                    0.30487839405844874
+                ]
+            },
+            "School of Social and Political Science": {
+                "distr": [
+                    0.7177216355945457,
+                    0.2822587299155104
+                ]
+            },
+            "School of Divinity": {
+                "distr": [
+                    0.7468489363087416,
+                    0.2531458082229437
+                ]
+            },
+            "Moray House School of Education and Sport": {
+                "distr": [
+                    0.7615289578583678,
+                    0.23846831925275616
+                ]
+            },
+            "Business School": {
+                "distr": [
+                    0.6139178449705675,
+                    0.3860799534143275
+                ]
+            },
+            "School of Economics": {
+                "distr": [
+                    0.5730357026486059,
+                    0.42696429735139413
+                ]
+            }
+        },
+        "vm": {
+            "Royal (Dick) School of Veterinary Studies": {
+                "distr": [
+                    0.7532120710952425,
+                    0.24678285748008089
+                ]
+            },
+            "Deanery of Biomedical Sciences": {
+                "distr": [
+                    0.7355151888842464,
+                    0.2644830748509114
+                ]
+            },
+            "Deanery of Clinical Sciences": {
+                "distr": [
+                    0.7422220544396617,
+                    0.25776892484878533
+                ]
+            },
+            "Deanery of Molecular, Genetic and Population Health Sciences": {
+                "distr": [
+                    0.7018392243400304,
+                    0.2981509017498027
+                ]
+            }
+        },
+        "se": {
+            "School of Informatics": {
+                "distr": [
+                    0.6119370758104543,
+                    0.3880629241895463
+                ]
+            },
+            "School of Engineering": {
+                "distr": [
+                    0.5937827826883675,
+                    0.40621721731163224
+                ]
+            },
+            "School of Physics and Astronomy": {
+                "distr": [
+                    0.6990359284107541,
+                    0.3009549145203329
+                ]
+            },
+            "School of Biological Sciences": {
+                "distr": [
+                    0.7316196265965255,
+                    0.2683803734034744
+                ]
+            },
+            "School of Geosciences": {
+                "distr": [
+                    0.7642273045842515,
+                    0.23577084054457864
+                ]
+            },
+            "School of Chemistry": {
+                "distr": [
+                    0.6949737707027668,
+                    0.3050262292972335
+                ]
+            }
+        }
+    }
+}

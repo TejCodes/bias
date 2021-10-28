@@ -1,0 +1,58 @@
+{% load bootstrap4 %}
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Opportunity Match</title>
+    {% bootstrap_javascript jquery='slim' %}
+    {% bootstrap_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'opportunity_match/core.css' %}">
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top ">
+      <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="/opportunity_match/">Opportunity Match</a>      
+    </nav>
+      
+    <main role="main" class="flex-shrink-0">
+      <div class="container p-4">
+        <h1>Opportunity Match</h1>
+        <p>
+            This project aims to develop a web-based tool to match experts 
+            with opportunities such as challenge descriptions, funding programme 
+            and project ideas. The tool will allow opportunity-to-expert,
+            expert-to-expert, and opportunity-to-opportunity matching and 
+            create automated emails to users based on customised alerts. 
+        </p>
+        <div class="row justify-content-center mt-4 mb-5">
+          <a class="btn btn-info btn-lg" href="/opportunity_match/">Enter OpportunityMatch</a>
+        </div>
+      </div>
+      <div class="container-fluid col-10 justify-content-end">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-4 col-sm-4 col-md-2">
+              <img class="img-fluid" src="{% static 'opportunity_match/images/EPCClogo.jpg' %}"/>
+          </div>
+          <div class="col-8 col-sm-5">
+            <img class="img-fluid" src="{% static 'opportunity_match/images/Bayes-logo-black.jpg' %}"/>
+          </div>
+          <div class="col-5 col-md-3">
+            <img class="img-fluid" src="{% static 'opportunity_match/images/DDI_logo_landscape_large.jpg' %}"/>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <img class="img-fluid" src="{% static 'opportunity_match/images/UoE_Centred Logo_CMYK.jpg' %}"/>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <script>
+        feather.replace()
+    </script>
+  
+</body>
+</html>
